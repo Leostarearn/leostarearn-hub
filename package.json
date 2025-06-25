@@ -1,5 +1,5 @@
 {
-  "name": "leostarearn-blog",
+  "name": "leostarearn-hub",
   "version": "1.0.0",
   "description": "Leostarearn Hub Static Blog",
   "scripts": {
@@ -10,4 +10,3 @@
     "@11ty/eleventy": "^3.0.0"
   }
 }
-

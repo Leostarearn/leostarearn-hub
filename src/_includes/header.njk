@@ -3,7 +3,7 @@
     <div class="logo">Leostarearn Hub</div>
     <nav>
       <ul class="menu">
-        <li><a href="/">Smart Living</a></li>
+        <li><a href="/smart-living/">Smart Living</a></li>
         <li><a href="/tech-tools/">Tech & Tools</a></li>
         <li><a href="/trending-viral/">Trending & Viral</a></li>
       </ul>
@@ -11,4 +11,12 @@
       <input type="text" id="search-bar" placeholder="Search..." />
     </nav>
   </div>
+
+  <script>
+    function toggleSearch() {
+      const bar = document.getElementById('search-bar');
+      bar.style.display = bar.style.display === 'inline-block' ? 'none' : 'inline-block';
+      bar.focus();
+    }
+  </script>
 </header>

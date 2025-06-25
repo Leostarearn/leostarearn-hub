@@ -1,16 +1,13 @@
 module.exports = function(eleventyConfig) {
-  // Passthrough copy for static assets like CSS, images
-  eleventyConfig.addPassthroughCopy("style.css");
-  eleventyConfig.addPassthroughCopy("images");
-
+  eleventyConfig.addPassthroughCopy("style.css"); // copy CSS to output
   return {
     dir: {
-      input: "src",         // Your source files folder
-      includes: "_includes", // Your includes folder inside src
-      output: "_site"        // Output folder Eleventy builds to
+      input: "src",
+      includes: "_includes",
+      output: "_site"
     },
     markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
-    dataTemplateEngine: "njk"
+    templateFormats: ["md", "njk", "html"]
   };
 };

@@ -299,21 +299,12 @@ main img {
   }
 }
 /* === Smart Picks Section === */
-.smart-picks-section {
-  margin: 40px auto;
-  padding: 0 5%;
-  max-width: 1200px;
-}
-.smart-picks-section h2 {
-  font-size: 1.6rem;
-  margin-bottom: 20px;
-  color: #004466;
-}
-
 .smart-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* limit to 2 cards per row */
+  gap: 30px;
+  justify-content: center;
+  align-items: stretch;
 }
 
 .smart-card {
@@ -322,25 +313,26 @@ main img {
   gap: 1rem;
   background: #fff;
   border-left: 4px solid #FABE04;
-  border-radius: 8px;
-  padding: 16px;
+  border-radius: 10px;
+  padding: 20px;
   text-decoration: none;
   color: #333;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
-  transition: transform 0.2s ease;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.06);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
 }
 
 .smart-card:hover {
-  transform: translateY(-2px);
+  transform: translateY(-4px);
+  box-shadow: 0 4px 14px rgba(0,0,0,0.1);
 }
 
 .smart-card .emoji {
-  font-size: 1.8rem;
-  margin-top: 3px;
+  font-size: 2rem;
+  margin-right: 10px;
 }
 
 .smart-card h3 {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   margin: 0 0 6px;
   color: #004466;
 }
@@ -348,6 +340,5 @@ main img {
 .smart-card p {
   font-size: 0.95rem;
   margin: 0;
-  line-height: 1.4;
+  line-height: 1.5;
 }
-

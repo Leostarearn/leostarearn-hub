@@ -258,12 +258,10 @@ footer p {
     padding: 0;
   }
 
-  footer hr {
-    width: 100%;
-    margin-left: 0;
+  width: calc(100% + 32px);
+    margin-left: -16px;
   }
 }
-
 
 /* === Article Content Styles === */
 main h1 {

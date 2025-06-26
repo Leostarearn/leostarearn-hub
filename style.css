@@ -254,14 +254,13 @@ main img {
 }
 /* === Desktop Article Spacing Fixes === */
 main {
-  max-width: 800px;
-  margin: 0 auto;
+  max-width: 1100px; /* wider content */
+  margin: 40px auto;
   background: #fff;
-  padding: 2rem;
-  border-radius: 8px;
-  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+  padding: 2.5rem 3rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
 }
-
 main h2 {
   display: block;
   margin-top: 2.5rem;
@@ -304,5 +303,57 @@ main img {
     margin-top: -1rem;
     margin-bottom: 2rem;
   }
+}
+/* === Smart Picks Section === */
+.smart-picks-section {
+  margin: 40px auto;
+  padding: 0 5%;
+  max-width: 1200px;
+}
+.smart-picks-section h2 {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+  color: #004466;
+}
+
+.smart-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.smart-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  background: #fff;
+  border-left: 4px solid #FABE04;
+  border-radius: 8px;
+  padding: 16px;
+  text-decoration: none;
+  color: #333;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+.smart-card:hover {
+  transform: translateY(-2px);
+}
+
+.smart-card .emoji {
+  font-size: 1.8rem;
+  margin-top: 3px;
+}
+
+.smart-card h3 {
+  font-size: 1.1rem;
+  margin: 0 0 6px;
+  color: #004466;
+}
+
+.smart-card p {
+  font-size: 0.95rem;
+  margin: 0;
+  line-height: 1.4;
 }
 

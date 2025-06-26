@@ -11,12 +11,26 @@
       <input type="text" id="search-bar" placeholder="Search..." />
     </nav>
   </div>
+</header>
 
-  <script>
-    function toggleSearch() {
-      const bar = document.getElementById('search-bar');
-      bar.style.display = bar.style.display === 'inline-block' ? 'none' : 'inline-block';
+<script>
+  function toggleSearch() {
+    const bar = document.getElementById('search-bar');
+    if (bar.style.display === 'block') {
+      bar.style.display = 'none';
+    } else {
+      bar.style.display = 'block';
       bar.focus();
     }
-  </script>
-</header>
+  }
+
+  // Optional: hide search bar if clicking outside
+  document.addEventListener('click', function (event) {
+    const searchBar = document.getElementById('search-bar');
+    const searchIcon = document.querySelector('.search-icon');
+
+    if (!searchBar.contains(event.target) && !searchIcon.contains(event.target)) {
+      searchBar.style.display = 'none';
+    }
+  });
+</script>

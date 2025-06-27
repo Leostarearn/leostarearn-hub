@@ -452,6 +452,11 @@ main img {
   padding: 0 20px;
 }
 
+@media (max-width: 600px) {
+  .home-container {
+    padding: 0 12px; /* Less padding on very small screens */
+  }
+}
 
 /* === Align Publication Date Correctly on Desktop === */
 @media (min-width: 769px) {

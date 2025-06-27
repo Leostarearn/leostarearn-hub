@@ -578,3 +578,59 @@ main img {
   }
 }
 
+/* === Article Table Styling === */
+main table {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  margin: 2rem auto; /* centered table with vertical spacing */
+  font-size: 1rem;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+  overflow-x: auto;
+}
+
+main th,
+main td {
+  border: 1px solid #ddd;
+  padding: 12px 16px;
+  text-align: left;
+}
+
+main th {
+  background-color: #f3f3f3;
+  color: #004466;
+  font-weight: bold;
+}
+
+main tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* === Responsive Fix: Scrollable Tables on Mobile === */
+@media (max-width: 768px) {
+  main table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  main table thead {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+  }
+
+  main table tbody {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+  }
+
+  main th,
+  main td {
+    white-space: nowrap;
+  }
+}
+

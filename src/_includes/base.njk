@@ -43,11 +43,20 @@
     </div>
   {% endif %}
 
-  <main>
-    <div class="table-scroll">
-      {{ content | safe }}
-    </div>
-  </main>
+  <main{% if "/smart-living/" in page.url 
+        or "/tech-tools/" in page.url 
+        or "/trending-viral/" in page.url 
+        or page.url == "/ai-productivity" 
+        or page.url == "/top-credit-cards" 
+        or page.url == "/make-money-online" 
+        or page.url == "/free-money-apps" 
+        or page.url == "/crypto-tools" 
+        or page.url == "/gut-health-tips" %} class="article-layout"{% endif %}>
+  <div class="table-scroll">
+    {{ content | safe }}
+  </div>
+</main>
+
 
   {% include "footer.njk" %}
 </body>

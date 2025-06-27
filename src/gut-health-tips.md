@@ -2,7 +2,7 @@
 title: Simple Gut Health Habits Backed by Science
 description: Discover easy, science-backed gut health tips that boost digestion, skin clarity, and overall wellness.
 date: 2025-06-26
-layout: layout.njk
+layout: base.njk
 permalink: /gut-health-tips.html
 tags: smart-living health wellness digestion
 ---

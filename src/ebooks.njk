@@ -1,1 +1,18 @@
+{% extends "_include/layout.njk" %}
+
+{% block content %}
+<main>
+  <section style="max-width:960px; margin:40px auto; padding:0 20px;">
+    <h1>Free eBooks</h1>
+    <p>Download our curated digital guides for personal use. Enter your email to get access:</p>
+    <form action="https://formspree.io/f/xldnondb" method="POST" style="margin-top:15px;">
+      <input type="email" name="email" required placeholder="Enter your email" style="padding:10px; width:250px;">
+      <button type="submit" style="padding:10px 20px;">Get Download Link</button>
+    </form>
+    <p style="margin-top:15px; font-size:13px; color:#777;">
+      These eBooks are for personal use only. Redistribution, resale, or uploading on other platforms is strictly prohibited.
+    </p>
+  </section>
+</main>
+{% endblock %}
 

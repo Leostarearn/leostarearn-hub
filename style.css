@@ -629,4 +629,91 @@ main tr:nth-child(even) {
   min-width: 600px;
   width: 100%;
 }
+/* === Sidebar Layout for Articles (Desktop Only) === */
+.left-sidebar, .right-sidebar {
+  position: fixed;
+  top: 120px;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Left: Social Share Icons */
+.left-sidebar {
+  left: 20px;
+  align-items: center;
+}
+
+.share-title {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #004466;
+  text-align: center;
+}
+
+/* Right: eBook Badge */
+.right-sidebar {
+  right: 20px;
+}
+
+.ebook-badge {
+  background: #FABE04;
+  color: #000;
+  font-weight: bold;
+  padding: 10px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.95rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: background 0.3s ease;
+}
+
+.ebook-badge:hover {
+  background: #ffd84a;
+}
+
+/* === Social Icon Buttons === */
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  background-color: #f3f3f3;
+  color: #004466;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.social-icon:hover {
+  background-color: #ddd;
+  transform: scale(1.1);
+}
+
+/* Platform-specific colors (optional) */
+.facebook { color: #3b5998; }
+.twitter { color: #1da1f2; }
+.whatsapp { color: #25d366; }
+.linkedin { color: #0077b5; }
+.pinterest { color: #e60023; }
+
+/* === Narrower Layout for Articles on Desktop === */
+@media (min-width: 1024px) {
+  main {
+    max-width: 900px;
+    margin: 40px auto;
+  }
+}
+
+/* === Hide Sidebars on Mobile === */
+@media (max-width: 768px) {
+  .left-sidebar,
+  .right-sidebar {
+    display: none !important;
+  }
+}
 

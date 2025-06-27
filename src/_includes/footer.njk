@@ -50,6 +50,20 @@
       });
     }
   </script>
+
+ <!-- Table Scroll Script -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const tables = document.querySelectorAll("main table");
+      tables.forEach(table => {
+        const wrapper = document.createElement("div");
+        wrapper.className = "table-scroll";
+        table.parentNode.insertBefore(wrapper, table);
+        wrapper.appendChild(table);
+      });
+    });
+  </script>
+
 </footer>
 
 

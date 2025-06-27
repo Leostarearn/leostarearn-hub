@@ -1,6 +1,6 @@
 ---
 title: "7 Science-Backed Benefits of Taking Probiotics Daily"
-layout: "layout.njk"
+layout: "base.njk"
 ---
 
 By Leostarearn • June 25, 2025

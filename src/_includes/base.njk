@@ -18,6 +18,13 @@
   <link rel="stylesheet" href="/style.css" />
 </head>
 <body>
+
+  <!-- TEMP TEST: Font Awesome Icons -->
+  <div style="padding: 1rem; background: #fff4dc; margin: 1rem; border: 1px solid #ccc;">
+    <p>Solid Icon Test: <i class="fas fa-star" style="color: gold; font-size: 1.5rem;"></i></p>
+    <p>Brand Icon Test: <i class="fab fa-facebook-f" style="color: #3b5998; font-size: 1.5rem;"></i></p>
+  </div>
+
   {% include "header.njk" %}
 
   {% if "/smart-living/" in page.url 
@@ -45,13 +52,6 @@
       <a href="/ebooks" class="ebook-badge">📘 Free eBooks</a>
     </div>
   {% endif %}
-
-<!-- 🔍 Font Awesome Test Block -->
-<div style="padding: 2rem; background: #fff8e1; margin: 2rem; border: 1px solid #ccc;">
-  <p>Test solid icon: <i class="fas fa-star" style="font-size: 2rem; color: gold;"></i></p>
-  <p>Test brand icon: <i class="fab fa-facebook-f" style="font-size: 2rem; color: blue;"></i></p>
-</div>
-
 
   <main{% if "/smart-living/" in page.url 
         or "/tech-tools/" in page.url 

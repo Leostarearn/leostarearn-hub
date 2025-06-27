@@ -4,10 +4,33 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{% if title %}{{ title }} | {% endif %}Leostarearn Hub</title>
+
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  integrity="sha512-4F8RWzKw+h+YzC0zA5HtQ37PZcMoPQJD4E6S1e6BuW6U14y6aWZPy7xrc9DFomxHYvBn18zKX8F9ABfjGz1rVg=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+
   <link rel="stylesheet" href="/style.css" />
 </head>
 <body>
   {% include "header.njk" %}
+
+{% if page.url contains "/smart-living/" or page.url contains "/reviews/" %}
+{% set fullUrl = "https://hub.leostarearn.com" ~ page.url %}
+  <div class="left-sidebar">
+    <p class="share-title">Share</p>
+    <a href="#" class="social-icon facebook" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+    <a href="#" class="social-icon twitter" title="Twitter"><i class="fab fa-x-twitter"></i></a>
+    <a href="#" class="social-icon whatsapp" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+    <a href="#" class="social-icon linkedin" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+    <a href="#" class="social-icon snapchat" title="Snapchat"><i class="fab fa-snapchat-ghost"></i></a>
+    <a href="#" class="social-icon pinterest" title="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+  </div>
+{% endif %}
+
 
   <main>
 <div class="table-scroll">

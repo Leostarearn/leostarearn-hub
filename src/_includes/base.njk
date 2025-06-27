@@ -17,9 +17,9 @@
 <body>
   {% include "header.njk" %}
 
-  {% if page.url contains "/smart-living/" 
-        or page.url contains "/tech-tools/" 
-        or page.url contains "/trending-viral/"
+  {% if "/smart-living/" in page.url 
+        or "/tech-tools/" in page.url 
+        or "/trending-viral/" in page.url 
         or page.url == "/ai-productivity" 
         or page.url == "/top-credit-cards" 
         or page.url == "/make-money-online" 
@@ -52,6 +52,3 @@
   {% include "footer.njk" %}
 </body>
 </html>
-
-
-

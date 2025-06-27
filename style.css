@@ -730,14 +730,13 @@ main tr:nth-child(even) {
   }
 }
 /* === Force Font Awesome Icons to Render Correctly === */
-/* === Force Font Awesome Social Icons to Render Correctly === */
+/* === Fix invisible brand icons in sidebars === */
 .social-icon i {
   font-family: "Font Awesome 6 Brands" !important;
+  font-weight: 400 !important;
   font-style: normal;
-  font-weight: 400;
   font-size: 1.3rem !important;
+  display: inline-block !important;
   color: inherit !important;
   visibility: visible !important;
-  display: inline-block !important;
-  line-height: 1;
 }

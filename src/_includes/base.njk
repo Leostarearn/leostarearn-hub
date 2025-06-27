@@ -18,14 +18,14 @@
   {% include "header.njk" %}
 
   {% if "/smart-living/" in page.url 
-        or "/tech-tools/" in page.url 
-        or "/trending-viral/" in page.url 
-        or page.url == "/ai-productivity" 
-        or page.url == "/top-credit-cards" 
-        or page.url == "/make-money-online" 
-        or page.url == "/free-money-apps" 
-        or page.url == "/crypto-tools" 
-        or page.url == "/gut-health-tips" %}
+      or "/tech-tools/" in page.url 
+      or "/trending-viral/" in page.url 
+      or "make-money-online" in page.url 
+      or "ai-productivity" in page.url 
+      or "top-credit-cards" in page.url 
+      or "free-money-apps" in page.url 
+      or "crypto-tools" in page.url 
+      or "gut-health-tips" in page.url %}
     
     {% set fullUrl = "https://hub.leostarearn.com" ~ page.url %}
     
@@ -46,12 +46,13 @@
   <main{% if "/smart-living/" in page.url 
         or "/tech-tools/" in page.url 
         or "/trending-viral/" in page.url 
-        or page.url == "/ai-productivity" 
-        or page.url == "/top-credit-cards" 
-        or page.url == "/make-money-online" 
-        or page.url == "/free-money-apps" 
-        or page.url == "/crypto-tools" 
-        or page.url == "/gut-health-tips" %} class="article-layout"{% endif %}>
+        or "ai-productivity" in page.url 
+        or "top-credit-cards" in page.url 
+        or "make-money-online" in page.url 
+        or "free-money-apps" in page.url 
+        or "crypto-tools" in page.url 
+        or "gut-health-tips" in page.url %} class="article-layout"{% endif %}>
+
   <div class="table-scroll">
     {{ content | safe }}
   </div>

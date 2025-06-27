@@ -371,6 +371,13 @@ main img {
   text-decoration: underline;
 }
 
+main ul li,
+main ol li {
+  margin-bottom: 0.8rem; /* add vertical space between bullets */
+  line-height: 1.7;       /* improve text readability */
+}
+
+
 /* Responsive Adjustments */
 @media (max-width: 768px) {
   main {

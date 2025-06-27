@@ -404,13 +404,14 @@ main ol li {
 /* === Desktop Article Spacing Fixes === */
 main {
   flex: 1;
-  max-width: 1200px;
-  margin: 40px auto;
   background: #fff;
   padding: 2.5rem 3rem;
   border-radius: 10px;
   box-shadow: 0 2px 12px rgba(0,0,0,0.04);
 }
+
+/* Remove max-width and margin from here — let .article-layout handle it */
+
 
 main h2 {
   display: block;

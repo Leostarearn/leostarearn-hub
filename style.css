@@ -703,11 +703,12 @@ main tr:nth-child(even) {
 
 /* === Narrower Layout for Articles on Desktop === */
 @media (min-width: 1024px) {
-  main {
+  main.article-layout {
     max-width: 900px;
     margin: 40px auto;
   }
 }
+
 
 /* === Hide Sidebars on Mobile === */
 @media (max-width: 768px) {

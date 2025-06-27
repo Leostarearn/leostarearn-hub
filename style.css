@@ -27,8 +27,15 @@ header {
 
 /* === Logo === */
 .logo {
-  font-size: 1.7rem;
+  color: white;
+  text-decoration: none;
   font-weight: bold;
+  font-size: 1.7rem; /* optional for size */
+}
+
+.logo:hover {
+  text-decoration: none; /* no underline on hover */
+  color: white; /* maintain white color on hover */
 }
 
 /* === Navigation === */

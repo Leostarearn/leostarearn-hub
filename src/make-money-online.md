@@ -11,8 +11,6 @@ layout: base.njk
 **Discover the smartest, simplest, and most profitable ways to earn from home in 2025 — even if you're starting from zero.**
 
 ---
-<p>Test solid icon: <i class="fas fa-star" style="font-size: 2rem; color: gold;"></i></p>
-<p>Test brand icon: <i class="fab fa-facebook-f" style="font-size: 2rem; color: blue;"></i></p>
 
 ## 🟩 Why Make Money Online in 2025?
 

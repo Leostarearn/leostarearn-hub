@@ -6,6 +6,8 @@ layout: _includes/base.njk
 ---
 
 
+
+
 ## 💼 Make Money Online in 2025: Top Side Hustles & Passive Income Ideas
 
 **Discover the smartest, simplest, and most profitable ways to earn from home in 2025 — even if you're starting from zero.**

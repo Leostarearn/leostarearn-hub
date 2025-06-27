@@ -613,6 +613,18 @@ main th {
 main tr:nth-child(even) {
   background-color: #f9f9f9;
 }
+/* === Table Scroll Wrapper === */
+.table-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 1rem;
+}
+
+.table-scroll table {
+  min-width: 600px;
+  width: 100%;
+}
+
 
 /* === Responsive Fix: Scrollable Tables on Mobile === */
 @media (max-width: 768px) {

@@ -718,6 +718,11 @@ main tr:nth-child(even) {
   background-color: #ddd;
   transform: scale(1.1);
 }
+.social-icon .facebook { color: #3b5998; }
+.social-icon .twitter { color: #1da1f2; }
+.social-icon .whatsapp { color: #25d366; }
+.social-icon .linkedin { color: #0077b5; }
+.social-icon .pinterest { color: #e60023; }
 
 
 /* === Narrower Layout for Articles on Desktop === */

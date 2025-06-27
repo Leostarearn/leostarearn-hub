@@ -641,6 +641,18 @@ main tr:nth-child(even) {
 }
 
 /* Left: Social Share Icons */
+/* === Sidebar Layout for Articles (Desktop Only) === */
+.left-sidebar,
+.right-sidebar {
+  position: fixed;
+  top: 120px;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Left: Social Share Icons */
 .left-sidebar {
   left: 20px;
   align-items: center;
@@ -686,7 +698,7 @@ main tr:nth-child(even) {
   color: #004466;
   border-radius: 50%;
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   transition: background 0.3s, transform 0.2s;
 }
 
@@ -695,12 +707,12 @@ main tr:nth-child(even) {
   transform: scale(1.1);
 }
 
-/* Platform-specific colors (optional) */
-.facebook { color: #3b5998; }
-.twitter { color: #1da1f2; }
-.whatsapp { color: #25d366; }
-.linkedin { color: #0077b5; }
-.pinterest { color: #e60023; }
+/* Platform-specific colors (applied to <i> inside) */
+.social-icon .facebook { color: #3b5998; }
+.social-icon .twitter { color: #1da1f2; }
+.social-icon .whatsapp { color: #25d366; }
+.social-icon .linkedin { color: #0077b5; }
+.social-icon .pinterest { color: #e60023; }
 
 /* === Narrower Layout for Articles on Desktop === */
 @media (min-width: 1024px) {
@@ -710,7 +722,6 @@ main tr:nth-child(even) {
   }
 }
 
-
 /* === Hide Sidebars on Mobile === */
 @media (max-width: 768px) {
   .left-sidebar,
@@ -718,4 +729,13 @@ main tr:nth-child(even) {
     display: none !important;
   }
 }
-
+/* === Force Font Awesome Icons to Render Correctly === */
+.social-icon i {
+  font-family: "Font Awesome 6 Brands" !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.3rem !important;
+  visibility: visible;
+  display: inline-block;
+  line-height: 1;
+}

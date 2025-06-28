@@ -49,7 +49,9 @@ layout: base.njk
       body: formData
     }).then(() => {
       e.target.reset();
+      document.getElementById('thanks').innerText = "✅ Thanks! Please check your email inbox (or Spam/Promotions tab) to download your eBook.";
       document.getElementById('thanks').style.display = 'block';
+
     }).catch(() => {
       alert("Something went wrong. Please try again later.");
     });

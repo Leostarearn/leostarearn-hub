@@ -812,8 +812,8 @@ main tr:nth-child(even) {
 
 .category-form input[type="email"] {
   padding: 10px;
-  flex: 1;
-  min-width: 220px;
+  width: 100%;
+  max-width: 100%;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
@@ -832,6 +832,22 @@ main tr:nth-child(even) {
 .category-form button:hover {
   background: #555;
 }
+.ebook-grid {
+  overflow-x: hidden;
+  width: 100%;
+  box-sizing: border-box;
+}
+@media (max-width: 400px) {
+  .ebook-card .emoji {
+    font-size: 1.6rem;
+    margin-right: 8px;
+  }
+
+  .ebook-card {
+    padding: 16px;
+  }
+}
+
 
 /* Responsive Form Fixes */
 @media (max-width: 600px) {

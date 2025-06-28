@@ -63,9 +63,16 @@ layout: base.njk
     e.preventDefault();
 
     const form = e.target;
+    const selectedEbook = document.getElementById('selected-ebook').value.trim();
     const submitBtn = form.querySelector('button');
     const thanksMsg = document.getElementById('thanks');
     const thanksText = document.getElementById('thanks-text');
+
+    // ✅ Prevent empty submission
+    if (!selectedEbook) {
+      alert("❗ Please select an eBook before submitting.");
+      return;
+    }
 
     // Disable the button while sending
     submitBtn.disabled = true;

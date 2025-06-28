@@ -8,22 +8,22 @@ layout: base.njk
   <p>Want to save money effortlessly? These eBooks cover smart hacks, cashback tools, and cost-cutting tips you can apply immediately.</p>
 
   <div class="smart-grid">
-    <a href="#" class="smart-card" onclick="selectEbook('Best Cashback & Rewards Apps')">
-      <span class="emoji">🛍️</span>
-      <div>
-        <h3>Best Cashback & Rewards Apps</h3>
-        <p>Save while shopping, traveling, and eating out — top apps and how to use them.</p>
-      </div>
-    </a>
+  <a href="#" class="smart-card" onclick="toggleEbook(event, 'Best Cashback & Rewards Apps', this)">
+    <span class="emoji">🛍️</span>
+    <div>
+      <h3>Best Cashback & Rewards Apps</h3>
+      <p>Save while shopping, traveling, and eating out — top apps and how to use them.</p>
+    </div>
+  </a>
 
-    <a href="#" class="smart-card" onclick="selectEbook('50 Tiny Hacks That Save Big')">
-      <span class="emoji">🧠</span>
-      <div>
-        <h3>50 Tiny Hacks That Save Big</h3>
-        <p>Everyday micro-hacks to cut costs on food, bills, shopping & more.</p>
-      </div>
-    </a>
-  </div>
+  <a href="#" class="smart-card" onclick="toggleEbook(event, '50 Tiny Hacks That Save Big', this)">
+    <span class="emoji">🧠</span>
+    <div>
+      <h3>50 Tiny Hacks That Save Big</h3>
+      <p>Everyday micro-hacks to cut costs on food, bills, shopping & more.</p>
+    </div>
+  </a>
+</div>
 
   <form id="ebook-form" style="margin-top: 40px;" onsubmit="submitForm(event)">
     <h2>Get Your eBook</h2>

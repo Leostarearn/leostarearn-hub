@@ -3,35 +3,32 @@ title: Free eBooks - Make Money Online
 layout: base.njk
 ---
 
-<div class="home-container">
-  <h1>Free eBooks: Make Money Online</h1>
-  <p>Explore our handpicked eBooks designed to help you earn online smarter, faster, and with real strategies. Select the eBook that interests you and get it delivered straight to your inbox — 100% free.</p>
+<div class="smart-grid">
+  <a href="#" class="smart-card" onclick="toggleEbook(event, 'Affiliate Blueprint', this)">
+    <span class="emoji">📘</span>
+    <div>
+      <h3>Affiliate Blueprint</h3>
+      <p>Learn how to start affiliate marketing and generate passive income using free traffic sources.</p>
+    </div>
+  </a>
 
-  <div class="smart-grid">
-    <a href="#" class="smart-card" onclick="selectEbook('Affiliate Blueprint')">
-      <span class="emoji">📘</span>
-      <div>
-        <h3>Affiliate Blueprint</h3>
-        <p>Learn how to start affiliate marketing and generate passive income using free traffic sources.</p>
-      </div>
-    </a>
+  <a href="#" class="smart-card" onclick="toggleEbook(event, '10 Fiverr Gigs That Actually Work', this)">
+    <span class="emoji">💼</span>
+    <div>
+      <h3>10 Fiverr Gigs That Actually Work</h3>
+      <p>Discover profitable micro-jobs you can start offering today — no experience needed.</p>
+    </div>
+  </a>
 
-    <a href="#" class="smart-card" onclick="selectEbook('10 Fiverr Gigs That Actually Work')">
-      <span class="emoji">💼</span>
-      <div>
-        <h3>10 Fiverr Gigs That Actually Work</h3>
-        <p>Discover profitable micro-jobs you can start offering today — no experience needed.</p>
-      </div>
-    </a>
+  <a href="#" class="smart-card" onclick="toggleEbook(event, 'YouTube Cash Secrets', this)">
+    <span class="emoji">🎥</span>
+    <div>
+      <h3>YouTube Cash Secrets</h3>
+      <p>Start a faceless YouTube channel and turn content into cash — even without showing your face.</p>
+    </div>
+  </a>
+</div>
 
-    <a href="#" class="smart-card" onclick="selectEbook('YouTube Cash Secrets')">
-      <span class="emoji">🎥</span>
-      <div>
-        <h3>YouTube Cash Secrets</h3>
-        <p>Start a faceless YouTube channel and turn content into cash — even without showing your face.</p>
-      </div>
-    </a>
-  </div>
 
   <form id="ebook-form" style="margin-top: 40px;" onsubmit="submitForm(event)">
     <h2>Get Your eBook</h2>

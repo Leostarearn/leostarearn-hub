@@ -34,12 +34,6 @@ layout: base.njk
   </form>
 
 <div id="thanks" style="display: none; margin-top: 30px; color: green; font-weight: 600; font-size: 1rem;">
-  <span class="checkmark-container">
-    <svg class="checkmark" viewBox="0 0 52 52">
-      <circle class="checkmark-circle" cx="26" cy="26" r="25" fill="none"/>
-      <path class="checkmark-check" fill="none" d="M14 27l7 7 16-16"/>
-    </svg>
-  </span>
   <span id="thanks-text"></span>
 </div>
 
@@ -118,7 +112,7 @@ layout: base.njk
         if (countdown <= 0) {
           clearInterval(interval);
           thanksMsg.style.display = 'none';
-          form.style.display = "flex";
+          form.style.display = "block";
           submitBtn.disabled = false;
           submitBtn.innerText = "Send eBook";
         }

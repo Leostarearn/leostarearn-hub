@@ -32,28 +32,72 @@ layout: base.njk
     <button type="submit" style="padding: 10px 20px; background: #004466; color: #fff; border: none; border-radius: 4px; cursor: pointer;">Send eBook</button>
   </form>
 
-  <p id="thanks" style="display: none; margin-top: 20px; color: green; font-weight: 600;">Thanks! Please check your email for the download link.</p>
+<div id="thanks" style="display: none; margin-top: 30px; color: green; font-weight: 600; font-size: 1rem;">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" style="vertical-align: middle; margin-right: 8px;">
+    <path d="M5 13l4 4L19 7" stroke="#2ecc71" stroke-width="3" fill="none"/>
+  </svg>
+  <span id="thanks-text"></span>
+</div>
 </div>
 
 <script>
   function selectEbook(title) {
     document.getElementById('selected-ebook').value = title;
-    window.scrollTo({ top: document.getElementById('ebook-form').offsetTop - 100, behavior: 'smooth' });
+    window.scrollTo({
+      top: document.getElementById('ebook-form').offsetTop - 100,
+      behavior: 'smooth'
+    });
   }
 
   function submitForm(e) {
     e.preventDefault();
-    const formData = new FormData(e.target);
+
+    const form = e.target;
+    const submitBtn = form.querySelector('button');
+    const thanksMsg = document.getElementById('thanks');
+    const thanksText = document.getElementById('thanks-text');
+
+    // Disable the button while sending
+    submitBtn.disabled = true;
+    submitBtn.innerText = "Sending...";
+
+    const formData = new FormData(form);
+
     fetch("https://hook.eu2.make.com/q6b0z3ilkez8kx51c9il4nnt4sxgh349", {
       method: "POST",
       body: formData
-    }).then(() => {
-      e.target.reset();
-      document.getElementById('thanks').innerText = "✅ Thanks! Please check your email inbox (or Spam/Promotions tab) to download your eBook.";
-      document.getElementById('thanks').style.display = 'block';
-      document.getElementById('thanks').scrollIntoView({ behavior: 'smooth' });
-    }).catch(() => {
+    })
+    .then(() => {
+      form.reset();
+      form.style.display = "none";
+
+      let countdown = 30;
+      thanksText.innerHTML = `
+        ✅ <strong>You're awesome!</strong> Your eBook is on the way — please check your inbox, spam, or promotions tab. <br><br>
+        <span id="countdown-text">⏳ You can request another eBook in <strong>${countdown}</strong> seconds.</span>
+      `;
+      thanksMsg.style.display = 'block';
+      thanksMsg.scrollIntoView({ behavior: 'smooth' });
+
+      // Countdown timer
+      const interval = setInterval(() => {
+        countdown--;
+        document.getElementById('countdown-text').innerHTML =
+          `⏳ You can request another eBook in <strong>${countdown}</strong> seconds.`;
+
+        if (countdown <= 0) {
+          clearInterval(interval);
+          thanksMsg.style.display = 'none';
+          form.style.display = "flex";
+          submitBtn.disabled = false;
+          submitBtn.innerText = "Send eBook";
+        }
+      }, 1000);
+    })
+    .catch(() => {
       alert("Something went wrong. Please try again later.");
+      submitBtn.disabled = false;
+      submitBtn.innerText = "Send eBook";
     });
   }
 </script>

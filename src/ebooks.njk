@@ -1,18 +1,63 @@
 ---
-title: Free ebooks
+title: Free eBooks
 layout: base.njk
 ---
 
-<main>
-  <section style="max-width:960px; margin:40px auto; padding:0 20px;">
-    <h1>Free eBooks</h1>
-    <p>Download our curated digital guides for personal use. Enter your email to get access:</p>
-    <form action="https://formspree.io/f/xldnondb" method="POST" style="margin-top:15px;">
-      <input type="email" name="email" required placeholder="Enter your email" style="padding:10px; width:250px;">
-      <button type="submit" style="padding:10px 20px;">Get Download Link</button>
-    </form>
-    <p style="margin-top:15px; font-size:13px; color:#777;">
-      These eBooks are for personal use only. Redistribution, resale, or uploading on other platforms is strictly prohibited.
-    </p>
-  </section>
-</main>
+<div class="home-container">
+  <h1>Get Free Digital Guides</h1>
+  <p>Choose your topic and get exclusive access to our best guides delivered straight to your inbox.</p>
+
+  <div class="ebook-grid">
+    <!-- Category: AI & Tools -->
+    <div class="ebook-card">
+      <img src="/images/ebooks/ai-tools-guide.webp" alt="AI Tools eBook" loading="lazy" />
+      <h3>AI Tools & Digital Boosters</h3>
+      <p>Discover powerful tools that save you hours and boost productivity.</p>
+      <form method="POST" action="YOUR_FORM_HANDLER_URL">
+        <input type="hidden" name="category" value="AI Tools">
+        <input type="email" name="email" placeholder="Enter your email" required>
+        <button type="submit">Get eBook</button>
+      </form>
+    </div>
+
+    <!-- Category: Make Money Online -->
+    <div class="ebook-card">
+      <img src="/images/ebooks/make-money-guide.webp" alt="Make Money eBook" loading="lazy" />
+      <h3>Make Money Online</h3>
+      <p>Legit ways to earn online from home — apps, tools, and strategies.</p>
+      <form method="POST" action="YOUR_FORM_HANDLER_URL">
+        <input type="hidden" name="category" value="Make Money">
+        <input type="email" name="email" placeholder="Enter your email" required>
+        <button type="submit">Get eBook</button>
+      </form>
+    </div>
+
+    <!-- Category: Smart Living & Wellness -->
+    <div class="ebook-card">
+      <img src="/images/ebooks/wellness-hacks-guide.webp" alt="Wellness Guide" loading="lazy" />
+      <h3>Smart Living & Wellness</h3>
+      <p>Simple habits backed by science to improve energy, sleep & focus.</p>
+      <form method="POST" action="YOUR_FORM_HANDLER_URL">
+        <input type="hidden" name="category" value="Smart Living">
+        <input type="email" name="email" placeholder="Enter your email" required>
+        <button type="submit">Get eBook</button>
+      </form>
+    </div>
+
+    <!-- Category: Money-Saving Hacks -->
+    <div class="ebook-card">
+      <img src="/images/ebooks/save-money-apps-guide.webp" alt="Money Saving Guide" loading="lazy" />
+      <h3>Money-Saving Apps & Hacks</h3>
+      <p>Top cashback tools, discount apps, and sneaky smart ways to save.</p>
+      <form method="POST" action="YOUR_FORM_HANDLER_URL">
+        <input type="hidden" name="category" value="Save Money">
+        <input type="email" name="email" placeholder="Enter your email" required>
+        <button type="submit">Get eBook</button>
+      </form>
+    </div>
+  </div>
+
+  <p style="margin-top:25px; font-size:13px; color:#777;">
+    Your email is safe with us. These eBooks are for personal use only.
+  </p>
+</div>

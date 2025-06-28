@@ -7,23 +7,23 @@ layout: base.njk
   <h1>Free eBooks: Smart Living & Wellness</h1>
   <p>Live better, feel energized, and simplify your day with these eBooks. Get quick habits, digital wellness tips, and focus boosters straight to your inbox.</p>
 
-  <div class="smart-grid">
-    <a href="#" class="smart-card" onclick="selectEbook('10 Wellness Habits for Busy People')">
-      <span class="emoji">🌞</span>
-      <div>
-        <h3>10 Wellness Habits for Busy People</h3>
-        <p>Daily habits that improve sleep, energy, and mental clarity — in under 5 minutes.</p>
-      </div>
-    </a>
+ <div class="smart-grid">
+  <a href="#" class="smart-card" onclick="toggleEbook(event, '10 Wellness Habits for Busy People', this)">
+    <span class="emoji">🌞</span>
+    <div>
+      <h3>10 Wellness Habits for Busy People</h3>
+      <p>Daily habits that improve sleep, energy, and mental clarity — in under 5 minutes.</p>
+    </div>
+  </a>
 
-    <a href="#" class="smart-card" onclick="selectEbook('Declutter Your Digital Life')">
-      <span class="emoji">🧹</span>
-      <div>
-        <h3>Declutter Your Digital Life</h3>
-        <p>Cut out digital noise and reset your phone, inbox, and screen time habits.</p>
-      </div>
-    </a>
-  </div>
+  <a href="#" class="smart-card" onclick="toggleEbook(event, 'Declutter Your Digital Life', this)">
+    <span class="emoji">🧹</span>
+    <div>
+      <h3>Declutter Your Digital Life</h3>
+      <p>Cut out digital noise and reset your phone, inbox, and screen time habits.</p>
+    </div>
+  </a>
+</div>
 
   <form id="ebook-form" style="margin-top: 40px;" onsubmit="submitForm(event)">
     <h2>Get Your eBook</h2>

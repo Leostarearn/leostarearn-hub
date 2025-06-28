@@ -8,22 +8,22 @@ layout: base.njk
   <p>Unlock your productivity with AI tools that help you work faster, automate smarter, and create better content. Choose an eBook below and get it instantly via email — 100% free.</p>
 
   <div class="smart-grid">
-    <a href="#" class="smart-card" onclick="selectEbook('Top 10 AI Tools That Save Time')">
-      <span class="emoji">⚙️</span>
-      <div>
-        <h3>Top 10 AI Tools That Save Time</h3>
-        <p>Use AI to boost your productivity, content, images, research, and automation.</p>
-      </div>
-    </a>
+  <a href="#" class="smart-card" onclick="toggleEbook(event, 'Top 10 AI Tools That Save Time', this)">
+    <span class="emoji">⚙️</span>
+    <div>
+      <h3>Top 10 AI Tools That Save Time</h3>
+      <p>Use AI to boost your productivity, content, images, research, and automation.</p>
+    </div>
+  </a>
 
-    <a href="#" class="smart-card" onclick="selectEbook('AI Side Hustles You Can Start Today')">
-      <span class="emoji">🤖</span>
-      <div>
-        <h3>AI Side Hustles You Can Start Today</h3>
-        <p>Combine AI with basic skills like writing, design, or video to start earning online.</p>
-      </div>
-    </a>
-  </div>
+  <a href="#" class="smart-card" onclick="toggleEbook(event, 'AI Side Hustles You Can Start Today', this)">
+    <span class="emoji">🤖</span>
+    <div>
+      <h3>AI Side Hustles You Can Start Today</h3>
+      <p>Combine AI with basic skills like writing, design, or video to start earning online.</p>
+    </div>
+  </a>
+</div>
 
   <form id="ebook-form" style="margin-top: 40px;" onsubmit="submitForm(event)">
     <h2>Get Your eBook</h2>

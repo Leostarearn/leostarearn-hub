@@ -44,30 +44,41 @@ layout: base.njk
 
 
 <script>
-  function selectEbook(title) {
-    document.getElementById('selected-ebook').value = title;
-    window.scrollTo({
-      top: document.getElementById('ebook-form').offsetTop - 100,
-      behavior: 'smooth'
-    });
+  const selectedEbooks = new Set();
+
+  function toggleEbook(e, title, el) {
+    e.preventDefault();
+    if (selectedEbooks.has(title)) {
+      selectedEbooks.delete(title);
+      el.classList.remove("selected");
+      el.querySelector(".badge")?.remove();
+    } else {
+      selectedEbooks.add(title);
+      el.classList.add("selected");
+      const badge = document.createElement("span");
+      badge.className = "badge";
+      badge.textContent = "Selected ✅";
+      el.appendChild(badge);
+    }
+
+    // Update hidden field
+    document.getElementById("selected-ebook").value = Array.from(selectedEbooks).join(", ");
   }
 
   function submitForm(e) {
     e.preventDefault();
-
     const form = e.target;
-    const selectedEbook = document.getElementById('selected-ebook').value.trim();
     const submitBtn = form.querySelector('button');
     const thanksMsg = document.getElementById('thanks');
     const thanksText = document.getElementById('thanks-text');
 
-    // ✅ Prevent empty submission
-    if (!selectedEbook) {
-      alert("❗ Please select an eBook before submitting.");
+    // Prevent submission if no eBook selected
+    const selected = document.getElementById('selected-ebook').value;
+    if (!selected) {
+      alert("Please select at least one eBook before submitting.");
       return;
     }
 
-    // Disable the button while sending
     submitBtn.disabled = true;
     submitBtn.innerText = "Sending...";
 
@@ -79,22 +90,31 @@ layout: base.njk
     })
     .then(() => {
       form.reset();
+      selectedEbooks.clear();
+      document.querySelectorAll(".smart-card.selected").forEach(card => {
+        card.classList.remove("selected");
+        card.querySelector(".badge")?.remove();
+      });
       form.style.display = "none";
 
       let countdown = 30;
       thanksText.innerHTML = `
-        ✅ <strong>You're awesome!</strong> Your eBook is on the way — please check your inbox, spam, or promotions tab. <br><br>
+        <span class="checkmark-container">
+          <svg class="checkmark" viewBox="0 0 52 52">
+            <circle class="checkmark-circle" cx="26" cy="26" r="25" fill="none"/>
+            <path class="checkmark-check" fill="none" d="M14 27l7 7 16-16"/>
+          </svg>
+        </span>
+        <strong>You're awesome!</strong> Your eBook(s) are on the way — please check your inbox, spam, or promotions tab. <br><br>
         <span id="countdown-text">⏳ You can request another eBook in <strong>${countdown}</strong> seconds.</span>
       `;
       thanksMsg.style.display = 'block';
       thanksMsg.scrollIntoView({ behavior: 'smooth' });
 
-      // Countdown timer
       const interval = setInterval(() => {
         countdown--;
         document.getElementById('countdown-text').innerHTML =
           `⏳ You can request another eBook in <strong>${countdown}</strong> seconds.`;
-
         if (countdown <= 0) {
           clearInterval(interval);
           thanksMsg.style.display = 'none';
@@ -111,3 +131,4 @@ layout: base.njk
     });
   }
 </script>
+

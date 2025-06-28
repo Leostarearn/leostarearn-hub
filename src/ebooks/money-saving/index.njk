@@ -1,28 +1,57 @@
 ---
-title: Money-Saving Apps & Hacks eBooks
+title: Free eBooks - Money-Saving Apps & Hacks
 layout: base.njk
 ---
 
 <div class="home-container">
-  <h1>Free eBooks: Money-Saving Hacks & Apps</h1>
-  <p>Slash your bills, earn rewards, and discover hidden cashback apps that actually work. These guides are beginner-friendly and loaded with tested apps, tools, and discount methods.</p>
+  <h1>Free eBooks: Money-Saving Apps & Hacks</h1>
+  <p>Want to save money effortlessly? These eBooks cover smart hacks, cashback tools, and cost-cutting tips you can apply immediately.</p>
 
   <div class="smart-grid">
-    <a href="#" class="smart-card">
-      <div class="emoji">💰</div>
+    <a href="#" class="smart-card" onclick="selectEbook('Best Cashback & Rewards Apps')">
+      <span class="emoji">🛍️</span>
       <div>
-        <h3>Top 10 Money-Saving Apps</h3>
-        <p>From groceries to subscriptions — these apps help you save real cash.</p>
+        <h3>Best Cashback & Rewards Apps</h3>
+        <p>Save while shopping, traveling, and eating out — top apps and how to use them.</p>
       </div>
     </a>
 
-    <a href="#" class="smart-card">
-      <div class="emoji">🛍️</div>
+    <a href="#" class="smart-card" onclick="selectEbook('50 Tiny Hacks That Save Big')">
+      <span class="emoji">🧠</span>
       <div>
-        <h3>Ultimate Cashback Guide 2025</h3>
-        <p>Best platforms for cashback, deals, and auto-discounts in your country.</p>
+        <h3>50 Tiny Hacks That Save Big</h3>
+        <p>Everyday micro-hacks to cut costs on food, bills, shopping & more.</p>
       </div>
     </a>
   </div>
+
+  <form id="ebook-form" style="margin-top: 40px;" onsubmit="submitForm(event)">
+    <h2>Get Your eBook</h2>
+    <input type="hidden" id="selected-ebook" name="ebook" required>
+    <input type="email" name="email" placeholder="Enter your email" required style="padding: 10px; width: 280px; max-width: 100%; border-radius: 4px; border: 1px solid #ccc;">
+    <button type="submit" style="padding: 10px 20px; background: #004466; color: #fff; border: none; border-radius: 4px; cursor: pointer;">Send eBook</button>
+  </form>
+
+  <p id="thanks" style="display: none; margin-top: 20px; color: green; font-weight: 600;">Thanks! Please check your email for the download link.</p>
 </div>
 
+<script>
+  function selectEbook(title) {
+    document.getElementById('selected-ebook').value = title;
+    window.scrollTo({ top: document.getElementById('ebook-form').offsetTop - 100, behavior: 'smooth' });
+  }
+
+  function submitForm(e) {
+    e.preventDefault();
+    const formData = new FormData(e.target);
+    fetch("https://hook.integromat.com/YOUR-MAKE-WEBHOOK-URL", {
+      method: "POST",
+      body: formData
+    }).then(() => {
+      e.target.reset();
+      document.getElementById('thanks').style.display = 'block';
+    }).catch(() => {
+      alert("Something went wrong. Please try again later.");
+    });
+  }
+</script>

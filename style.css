@@ -741,3 +741,114 @@ main tr:nth-child(even) {
   }
 }
 
+/* === eBook Grid Cards === */
+.ebook-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+/* eBook Smart Cards */
+.ebook-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  background: #fff;
+  border-left: 4px solid #FABE04;
+  border-radius: 10px;
+  padding: 20px;
+  text-decoration: none;
+  color: #333;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.06);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.ebook-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+}
+
+.ebook-card .emoji {
+  font-size: 2rem;
+  margin-right: 10px;
+}
+
+.ebook-card h3 {
+  font-size: 1.2rem;
+  margin: 0 0 6px;
+  color: #004466;
+}
+
+.ebook-card p {
+  font-size: 0.95rem;
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* === Form Section for Email Opt-in === */
+.category-form {
+  margin-top: 40px;
+  background: #fff;
+  border-left: 4px solid #FABE04;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.05);
+}
+
+.category-form h2 {
+  font-size: 1.3rem;
+  margin-bottom: 12px;
+  color: #004466;
+}
+
+.category-form form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.category-form input[type="email"] {
+  padding: 10px;
+  flex: 1;
+  min-width: 220px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.category-form button {
+  padding: 10px 20px;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.category-form button:hover {
+  background: #555;
+}
+
+/* Responsive Form Fixes */
+@media (max-width: 600px) {
+  .category-form form {
+    flex-direction: column;
+  }
+
+  .category-form input[type="email"],
+  .category-form button {
+    width: 100%;
+  }
+}
+
+/* === Success Message (optional styling) === */
+#thanks {
+  margin-top: 20px;
+  color: green;
+  font-weight: bold;
+  font-size: 1rem;
+}

@@ -1,28 +1,57 @@
 ---
-title: AI Tools & Automation eBooks
+title: Free eBooks - AI & Digital Tools
 layout: base.njk
 ---
 
 <div class="home-container">
-  <h1>Free eBooks: AI Tools & Digital Automation</h1>
-  <p>Explore the smartest AI tools and automations that save time, boost productivity, and help you scale your work without burnout. Each eBook delivers real use-cases and curated tools you’ll love.</p>
+  <h1>Free eBooks: AI & Digital Tools</h1>
+  <p>Unlock your productivity with AI tools that help you work faster, automate smarter, and create better content. Choose an eBook below and get it instantly via email — 100% free.</p>
 
   <div class="smart-grid">
-    <a href="#" class="smart-card">
-      <div class="emoji">🤖</div>
+    <a href="#" class="smart-card" onclick="selectEbook('Top 10 AI Tools That Save Time')">
+      <span class="emoji">⚙️</span>
       <div>
-        <h3>Top 7 AI Tools That Save Hours Daily</h3>
-        <p>Hand-picked AI apps for content, code, design, writing & automation.</p>
+        <h3>Top 10 AI Tools That Save Time</h3>
+        <p>Use AI to boost your productivity, content, images, research, and automation.</p>
       </div>
     </a>
 
-    <a href="#" class="smart-card">
-      <div class="emoji">⚙️</div>
+    <a href="#" class="smart-card" onclick="selectEbook('AI Side Hustles You Can Start Today')">
+      <span class="emoji">🤖</span>
       <div>
-        <h3>Beginner's Guide to AI Automation</h3>
-        <p>Start automating tasks in your work and personal life — no coding needed.</p>
+        <h3>AI Side Hustles You Can Start Today</h3>
+        <p>Combine AI with basic skills like writing, design, or video to start earning online.</p>
       </div>
     </a>
   </div>
+
+  <form id="ebook-form" style="margin-top: 40px;" onsubmit="submitForm(event)">
+    <h2>Get Your eBook</h2>
+    <input type="hidden" id="selected-ebook" name="ebook" required>
+    <input type="email" name="email" placeholder="Enter your email" required style="padding: 10px; width: 280px; max-width: 100%; border-radius: 4px; border: 1px solid #ccc;">
+    <button type="submit" style="padding: 10px 20px; background: #004466; color: #fff; border: none; border-radius: 4px; cursor: pointer;">Send eBook</button>
+  </form>
+
+  <p id="thanks" style="display: none; margin-top: 20px; color: green; font-weight: 600;">Thanks! Please check your email for the download link.</p>
 </div>
 
+<script>
+  function selectEbook(title) {
+    document.getElementById('selected-ebook').value = title;
+    window.scrollTo({ top: document.getElementById('ebook-form').offsetTop - 100, behavior: 'smooth' });
+  }
+
+  function submitForm(e) {
+    e.preventDefault();
+    const formData = new FormData(e.target);
+    fetch("https://hook.integromat.com/YOUR-MAKE-WEBHOOK-URL", {
+      method: "POST",
+      body: formData
+    }).then(() => {
+      e.target.reset();
+      document.getElementById('thanks').style.display = 'block';
+    }).catch(() => {
+      alert("Something went wrong. Please try again later.");
+    });
+  }
+</script>

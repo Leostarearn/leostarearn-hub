@@ -1,28 +1,57 @@
 ---
-title: Smart Living & Wellness eBooks
+title: Free eBooks - Smart Living & Wellness
 layout: base.njk
 ---
 
 <div class="home-container">
   <h1>Free eBooks: Smart Living & Wellness</h1>
-  <p>Discover wellness tips, daily focus tricks, brain health insights, and minimal living strategies. These eBooks are made to help you feel better, work smarter, and build a healthier lifestyle.</p>
+  <p>Live better, feel energized, and simplify your day with these eBooks. Get quick habits, digital wellness tips, and focus boosters straight to your inbox.</p>
 
   <div class="smart-grid">
-    <a href="#" class="smart-card">
-      <div class="emoji">🌱</div>
+    <a href="#" class="smart-card" onclick="selectEbook('10 Wellness Habits for Busy People')">
+      <span class="emoji">🌞</span>
       <div>
-        <h3>Boost Energy Naturally</h3>
-        <p>7 lifestyle habits to fight fatigue and regain mental clarity fast.</p>
+        <h3>10 Wellness Habits for Busy People</h3>
+        <p>Daily habits that improve sleep, energy, and mental clarity — in under 5 minutes.</p>
       </div>
     </a>
 
-    <a href="#" class="smart-card">
-      <div class="emoji">🧘</div>
+    <a href="#" class="smart-card" onclick="selectEbook('Declutter Your Digital Life')">
+      <span class="emoji">🧹</span>
       <div>
-        <h3>Declutter Your Mind & Focus Better</h3>
-        <p>Simple mindset techniques to boost daily productivity and peace.</p>
+        <h3>Declutter Your Digital Life</h3>
+        <p>Cut out digital noise and reset your phone, inbox, and screen time habits.</p>
       </div>
     </a>
   </div>
+
+  <form id="ebook-form" style="margin-top: 40px;" onsubmit="submitForm(event)">
+    <h2>Get Your eBook</h2>
+    <input type="hidden" id="selected-ebook" name="ebook" required>
+    <input type="email" name="email" placeholder="Enter your email" required style="padding: 10px; width: 280px; max-width: 100%; border-radius: 4px; border: 1px solid #ccc;">
+    <button type="submit" style="padding: 10px 20px; background: #004466; color: #fff; border: none; border-radius: 4px; cursor: pointer;">Send eBook</button>
+  </form>
+
+  <p id="thanks" style="display: none; margin-top: 20px; color: green; font-weight: 600;">Thanks! Please check your email for the download link.</p>
 </div>
 
+<script>
+  function selectEbook(title) {
+    document.getElementById('selected-ebook').value = title;
+    window.scrollTo({ top: document.getElementById('ebook-form').offsetTop - 100, behavior: 'smooth' });
+  }
+
+  function submitForm(e) {
+    e.preventDefault();
+    const formData = new FormData(e.target);
+    fetch("https://hook.integromat.com/YOUR-MAKE-WEBHOOK-URL", {
+      method: "POST",
+      body: formData
+    }).then(() => {
+      e.target.reset();
+      document.getElementById('thanks').style.display = 'block';
+    }).catch(() => {
+      alert("Something went wrong. Please try again later.");
+    });
+  }
+</script>

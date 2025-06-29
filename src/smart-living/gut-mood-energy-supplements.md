@@ -3,7 +3,7 @@ title: "Top Supplements for Gut, Mood & Energy (2025 Guide)"
 description: "Science-backed supplements to support digestion, mood balance, and clean energy levels — picked for Tier-1 users who want simple, effective results."
 date: 2025-06-30
 layout: base.njk
-permalink: /smart-living/gut-mood-energy-supplements
+permalink: /smart-living/gut-mood-energy-supplements.html
 tags: ["smart-living", "wellness", "supplements", "gut-health", "energy", "focus"]
 ---
 

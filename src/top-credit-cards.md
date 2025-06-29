@@ -1,7 +1,7 @@
 ---
 title: "Best Credit Cards & Smart Finance Hacks (2025 Edition)"
 description: "Compare the top credit cards for cashbacks, rewards, travel perks, and zero annual fees — plus smart tips to maximize your card game in 2025."
-tags: ["finance", "credit-cards", "money-hacks", "smart-living"]
+tags: ["finance", "credit-cards", "money-hacks", "cashbacks"]
 layout: base.njk
 ---
 

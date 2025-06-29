@@ -9,7 +9,7 @@ permalink: /smart-living/morning-gut-reset-smoothies.html
 tags: ["smart-living", "gut-health", "energy", "focus"]
 image: "/images/smart-living/morning-gut-reset-smoothies.webp"
 imageAlt: "Green smoothie in glass with fresh spinach and ginger"
------------------------------------------------------------------
+---
 
 # Morning Gut Reset Smoothies for Busy Professionals
 

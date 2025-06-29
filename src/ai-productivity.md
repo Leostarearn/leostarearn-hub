@@ -1,7 +1,7 @@
 ---
 title: "Top AI Tools That Save You Hours Daily (2025 Guide)"
 description: "Discover the best AI tools in 2025 that help you write, plan, automate, and create faster than ever. Save hours daily with these productivity boosters."
-tags: ["ai-tools", "productivity", "automation", "smart-living"]
+tags: ["ai-tools", "productivity", "automation", "save-time"]
 layout: base.njk
 ---
 

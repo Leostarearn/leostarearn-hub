@@ -6,8 +6,6 @@ layout: base.njk
 tags: ["smart-living", "wellness", "health", "focus", "energy", "gut-health"]
 ---
 
-
-
 # Smart Health: Gut, Focus & Energy Tips (2025 Guide)
 
 Small daily habits can do more for your gut, brain, and energy than most supplements or hacks. This guide shares simple, science-backed changes that people in Tier-1 countries are using to stay sharp, feel lighter, and think clearly.

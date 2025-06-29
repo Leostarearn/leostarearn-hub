@@ -1,16 +1,20 @@
 ---
 title: "Trending & Viral Picks"
 layout: base.njk
+permalink: /trending-viral/
 ---
 
 <h1>🔥 Trending & Viral Picks</h1>
-<p>Catch up with what’s buzzing — from viral tools to breakout money hacks and lifestyle upgrades.</p>
+<p>Catch what’s buzzing — from viral habits to breakout products, tools, and money hacks.</p>
 
-<ul>
+<div class="article-grid">
   {% for post in collections["trending-viral"] %}
-    <li>
-      <a href="{{ post.url }}">{{ post.data.title }}</a> – {{ post.data.description }}
-    </li>
+    <a href="{{ post.url }}" class="article-card">
+      <img src="{{ post.data.image }}" alt="{{ post.data.imageAlt or post.data.title }}" loading="lazy"/>
+      <div class="article-text">
+        <h3>{{ post.data.title }}</h3>
+        <p>{{ post.data.description }}</p>
+      </div>
+    </a>
   {% endfor %}
-</ul>
-
+</div>

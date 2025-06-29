@@ -1,7 +1,7 @@
 ---
 title: "Make Money Online in 2025: Top Side Hustles & Passive Income Ideas"
 description: "Discover the smartest, simplest, and most profitable ways to earn from home in 2025 — even if you're starting from zero."
-tags: ["make-money", "side-hustles", "passive-income", "smart-living"]
+tags: ["make-money", "side-hustles", "passive-income", "make-money-online"]
 layout: base.njk
 ---
 

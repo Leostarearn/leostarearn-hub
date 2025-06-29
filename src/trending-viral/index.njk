@@ -1,0 +1,16 @@
+---
+title: "Trending & Viral Picks"
+layout: base.njk
+permalink: /trending-viral/
+---
+
+<h1>🔥 Trending & Viral Picks</h1>
+<p>Catch up with what’s buzzing — from viral tools to breakout money hacks and lifestyle upgrades.</p>
+
+<ul>
+  {% for post in collections['trending-viral'] %}
+    <li>
+      <a href="{{ post.url }}">{{ post.data.title }}</a> – {{ post.data.description }}
+    </li>
+  {% endfor %}
+</ul>

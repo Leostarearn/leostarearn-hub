@@ -2,7 +2,7 @@
 
 title: "Crypto & Digital Finance Tools (2025 Edition)"
 description: "A deep dive into the safest, smartest, and most user-friendly crypto and digital finance tools — from wallets to exchanges to tracking apps — built for 2025 and beyond."
-tags: \["crypto", "finance", "money-tools", "digital-wallets"]
+tags: ["crypto", "finance", "money-tools", "digital-wallets"]
 layout: base.njk
 ----------------
 

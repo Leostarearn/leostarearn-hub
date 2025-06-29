@@ -91,6 +91,8 @@ Always pair supplements with smart habits (see our [Smart Health Guide](/smart-h
 
 ### 📌 What to Read Next
 
-* 👉 [Smart Health: Gut, Focus & Energy Tips (2025 Guide)](/smart-health-guide)
-* 👉 [Simple Gut Health Habits Backed by Science](/gut-health-tips.html)
-* 👉 [Top AI Tools That Save You Hours Daily](#)
+### 📌 What to Read Next
+
+👉 [Top Supplements for Gut, Mood & Energy (2025 Guide)](/smart-living/gut-mood-energy-supplements.html)  
+👉 [Simple Gut Health Habits Backed by Science](/smart-living/gut-health-tips.html)  
+👉 [Digital Detox: How 24 Hours Without Your Phone Feels](/smart-living/digital-detox-habits.html)

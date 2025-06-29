@@ -6,7 +6,7 @@ description: "Start your day with gut-supporting smoothies designed for energy, 
 date: 2025-07-01
 layout: base.njk
 permalink: /smart-living/morning-gut-reset-smoothies.html
-tags: \["smart-living", "gut-health", "energy", "focus"]
+tags: ["smart-living", "gut-health", "energy", "focus"]
 image: "/images/smart-living/morning-gut-reset-smoothies.webp"
 imageAlt: "Green smoothie in glass with fresh spinach and ginger"
 -----------------------------------------------------------------

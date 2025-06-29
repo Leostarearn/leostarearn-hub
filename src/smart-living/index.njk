@@ -1,0 +1,16 @@
+---
+title: "Smart Living Guides"
+layout: base.njk
+permalink: /smart-living/
+---
+
+<h1>🧠 Smart Living Guides</h1>
+<p>Explore practical wellness, health, and lifestyle tips to improve focus, gut health, energy, and more.</p>
+
+<ul>
+  {% for post in collections['smart-living'] %}
+    <li>
+      <a href="{{ post.url }}">{{ post.data.title }}</a> – {{ post.data.description }}
+    </li>
+  {% endfor %}
+</ul>

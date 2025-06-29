@@ -1,7 +1,7 @@
 
 ---
 
-'title: "Morning Gut Reset Smoothies for Busy Professionals (2025)"
+title: "Morning Gut Reset Smoothies for Busy Professionals (2025)"
 description: "Start your day with gut-supporting smoothies designed for energy, clarity, and easy digestion—ready in under 5 minutes."
 date: 2025-07-01
 layout: base.njk

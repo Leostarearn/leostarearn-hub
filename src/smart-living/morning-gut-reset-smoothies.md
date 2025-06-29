@@ -1,6 +1,4 @@
-
 ---
-
 title: "Morning Gut Reset Smoothies for Busy Professionals (2025)"
 description: "Start your day with gut-supporting smoothies designed for energy, clarity, and easy digestion—ready in under 5 minutes."
 date: 2025-07-01
@@ -10,6 +8,7 @@ tags: ["smart-living", "gut-health", "energy", "focus"]
 image: "/images/smart-living/morning-gut-reset-smoothies.webp"
 imageAlt: "Green smoothie in glass with fresh spinach and ginger"
 ---
+
 
 # Morning Gut Reset Smoothies for Busy Professionals
 

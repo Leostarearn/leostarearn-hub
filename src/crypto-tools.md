@@ -6,8 +6,6 @@ layout: base.njk
 ---
 
 
-<article class="article-section">
-
 ## 💰 Crypto & Digital Finance Tools (2025 Edition)
 
 **A deep dive into the safest, smartest, and most user-friendly crypto and digital finance tools — from wallets to exchanges to tracking apps — built for 2025 and beyond.**

@@ -1,17 +1,20 @@
 ---
-title: "Tech & Tools Guides"
+title: "Tech & Tools"
 layout: base.njk
 permalink: /tech-tools/
 ---
 
-<h1>🛠️ Tech & Tools Guides</h1>
-<p>Explore top-rated AI tools, apps, and digital hacks to work smarter and earn faster.</p>
+<h1>🛠️ Tech & Tools</h1>
+<p>Explore tools, apps, and smart platforms to automate, create, and earn smarter in 2025.</p>
 
-<ul>
-  {% for post in collections['tech-tools'] %}
-    <li>
-      <a href="{{ post.url }}">{{ post.data.title }}</a> – {{ post.data.description }}
-    </li>
+<div class="article-grid">
+  {% for post in collections["tech-tools"] %}
+    <a href="{{ post.url }}" class="article-card">
+      <img src="{{ post.data.image }}" alt="{{ post.data.imageAlt or post.data.title }}" loading="lazy"/>
+      <div class="article-text">
+        <h3>{{ post.data.title }}</h3>
+        <p>{{ post.data.description }}</p>
+      </div>
+    </a>
   {% endfor %}
-</ul>
-
+</div>

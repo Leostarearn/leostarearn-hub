@@ -1,12 +1,12 @@
 ---
-
-title: Smart Health: Gut, Focus & Energy Tips (2025 Guide)
-description: Everyday science-backed habits to support gut health, boost focus, and unlock clean energy — without extreme diets or pills.
+title: "Smart Health: Gut, Focus & Energy Tips (2025 Guide)"
+description: "Everyday science-backed habits to support gut health, boost focus, and unlock clean energy — without extreme diets or pills."
 date: 2025-06-29
 layout: base.njk
 permalink: /smart-health-guide
-tags: smart-living wellness health focus energy gut-health
+tags: ["smart-living", "wellness", "health", "focus", "energy", "gut-health"]
 ---
+
 # Smart Health: Gut, Focus & Energy Tips (2025 Guide)
 
 Small daily habits can do more for your gut, brain, and energy than most supplements or hacks. This guide shares simple, science-backed changes that people in Tier-1 countries are using to stay sharp, feel lighter, and think clearly.

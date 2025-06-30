@@ -6,6 +6,13 @@
   <title>{% if title %}{{ title }} | {% endif %}Leostarearn Hub</title>
 <link rel="canonical" href="https://hub.leostarearn.com{{ page.url }}" />
 
+{# ✅ Favicon and PWA Icons #}
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png" />
+<link rel="apple-touch-icon" sizes="192x192" href="/images/icon-192x192.png" />
+<link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192x192.png" />
+<link rel="icon" type="image/png" sizes="512x512" href="/images/icon-512x512.png" />
+<link rel="manifest" href="/manifest.json" />
+
   {# ✅ SEO Meta Description #}
   {% if description %}
     <meta name="description" content="{{ description | escape }}" />

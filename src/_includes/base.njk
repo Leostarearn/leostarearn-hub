@@ -30,7 +30,7 @@
     <meta property="og:image" content="https://hub.leostarearn.com{{ image }}" />
     <meta property="twitter:card" content="summary_large_image" />
   {% endif %}
-  <meta property="og:type" content="article" />
+<meta property="og:type" content="{% if page.url == '/' %}website{% else %}article{% endif %}" />
   <meta property="og:url" content="https://hub.leostarearn.com{{ page.url }}" />
 
   {# ✅ Twitter Meta Tags #}

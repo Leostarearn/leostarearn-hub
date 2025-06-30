@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /private/
+Disallow: /drafts/
+Disallow: /hidden/
+Allow: /
+
+Sitemap: https://hub.leostarearn.com/sitemap.xml

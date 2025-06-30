@@ -66,6 +66,31 @@
     </script>
   {% endif %}
 
+{% if not review %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ title }}",
+  "description": "{{ description | escape }}",
+  "image": "https://hub.leostarearn.com{{ image }}",
+  "author": {
+    "@type": "Organization",
+    "name": "Leostarearn Hub"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Leostarearn Hub",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://hub.leostarearn.com/images/logo.png"
+    }
+  },
+  "datePublished": "{{ page.date or '2025-06-30' }}"
+}
+</script>
+{% endif %}
+
   <script src="https://kit.fontawesome.com/e87b7a139c.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="/style.css" />
 </head>

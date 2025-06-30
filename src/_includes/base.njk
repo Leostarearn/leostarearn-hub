@@ -5,10 +5,71 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{% if title %}{{ title }} | {% endif %}Leostarearn Hub</title>
 
-<script src="https://kit.fontawesome.com/e87b7a139c.js" crossorigin="anonymous"></script>
+  {# ✅ SEO Meta Description #}
+  {% if description %}
+    <meta name="description" content="{{ description | escape }}" />
+  {% endif %}
 
+  {# ✅ Open Graph (OG) Tags for social sharing #}
+  <meta property="og:site_name" content="Leostarearn Hub" />
+  {% if title %}
+    <meta property="og:title" content="{{ title }}" />
+  {% endif %}
+  {% if description %}
+    <meta property="og:description" content="{{ description | escape }}" />
+  {% endif %}
+  {% if image %}
+    <meta property="og:image" content="https://hub.leostarearn.com{{ image }}" />
+    <meta property="twitter:card" content="summary_large_image" />
+  {% endif %}
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://hub.leostarearn.com{{ page.url }}" />
+
+  {# ✅ Twitter Meta Tags #}
+  <meta name="twitter:site" content="@leostarearn" />
+  {% if title %}
+    <meta name="twitter:title" content="{{ title }}" />
+  {% endif %}
+  {% if description %}
+    <meta name="twitter:description" content="{{ description | escape }}" />
+  {% endif %}
+  {% if image %}
+    <meta name="twitter:image" content="https://hub.leostarearn.com{{ image }}" />
+  {% endif %}
+
+  {# ✅ Review Schema if applicable #}
+  {% if review %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "{{ productName or title }}",
+      "image": "https://hub.leostarearn.com{{ productImage or image }}",
+      "description": "{{ description | escape }}",
+      "brand": {
+        "@type": "Brand",
+        "name": "Leostarearn Hub"
+      },
+      "review": {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "4.9",
+          "bestRating": "5"
+        },
+        "author": {
+          "@type": "Organization",
+          "name": "Leostarearn"
+        }
+      }
+    }
+    </script>
+  {% endif %}
+
+  <script src="https://kit.fontawesome.com/e87b7a139c.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="/style.css" />
 </head>
+
 <body>
 
   {% include "header.njk" %}

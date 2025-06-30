@@ -1,34 +1,35 @@
+const { DateTime } = require("luxon");
+
 module.exports = function(eleventyConfig) {
-  // ✅ Static asset passthrough
+  // ✅ Static file passthroughs
   eleventyConfig.addPassthroughCopy("style.css");
   eleventyConfig.addPassthroughCopy("src/images");
-  eleventyConfig.addPassthroughCopy("robots.txt");          // ✅ Add robots.txt
-  eleventyConfig.addPassthroughCopy("src/manifest.json");   // Optional: future PWA setup
+  eleventyConfig.addPassthroughCopy("robots.txt");
+  eleventyConfig.addPassthroughCopy("src/manifest.json");
 
-  // ✅ Smart Living
-  eleventyConfig.addCollection("smart-living", (collectionApi) =>
-    collectionApi.getFilteredByTag("smart-living")
-  );
+  // ✅ Date filter for sitemap
+  eleventyConfig.addFilter("date", (dateObj, format = "yyyy-MM-dd") => {
+    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(format);
+  });
 
-  // ✅ Tech Tools
-  eleventyConfig.addCollection("tech-tools", (collectionApi) =>
-    collectionApi.getFilteredByTag("tech-tools")
-  );
-
-  // ✅ Trending Viral
-  eleventyConfig.addCollection("trending-viral", (collectionApi) =>
-    collectionApi.getFilteredByTag("trending-viral")
-  );
-
-  // ✅ Everything (for sitemap)
-  eleventyConfig.addCollection("all", (collectionApi) =>
-    collectionApi.getAll()
-  );
-
-  // ✅ Add a global filter to clean URLs (if needed for sitemap)
+  // ✅ Clean URL filter (optional)
   eleventyConfig.addFilter("cleanUrl", function (url) {
     return url.replace("index.html", "");
   });
+
+  // ✅ Collections
+  eleventyConfig.addCollection("smart-living", (collectionApi) =>
+    collectionApi.getFilteredByTag("smart-living")
+  );
+  eleventyConfig.addCollection("tech-tools", (collectionApi) =>
+    collectionApi.getFilteredByTag("tech-tools")
+  );
+  eleventyConfig.addCollection("trending-viral", (collectionApi) =>
+    collectionApi.getFilteredByTag("trending-viral")
+  );
+  eleventyConfig.addCollection("all", (collectionApi) =>
+    collectionApi.getAll()
+  );
 
   return {
     dir: {
@@ -39,7 +40,6 @@ module.exports = function(eleventyConfig) {
     markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
     templateFormats: ["md", "njk", "html"],
-    dataTemplateEngine: "njk" // ✅ Allows using Nunjucks inside .md front matter too
+    dataTemplateEngine: "njk"
   };
 };
-

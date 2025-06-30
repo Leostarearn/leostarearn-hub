@@ -42,3 +42,4 @@ module.exports = function(eleventyConfig) {
     dataTemplateEngine: "njk" // ✅ Allows using Nunjucks inside .md front matter too
   };
 };
+

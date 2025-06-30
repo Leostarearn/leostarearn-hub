@@ -97,3 +97,4 @@ Blend until smooth. Drink slowly before or with breakfast.
 👉 [Cold Shower Benefits for Energy & Mood](/smart-living/cold-shower-benefits.html)
 
 ---
+

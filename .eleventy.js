@@ -17,6 +17,17 @@ module.exports = function(eleventyConfig) {
     return url.replace("index.html", "");
   });
 
+  // ✅ Lazy loading transform for images
+  eleventyConfig.addTransform("lazyImages", function (content, outputPath) {
+    if (outputPath && outputPath.endsWith(".html")) {
+      return content.replace(/<img(.*?)>/g, function (match, group) {
+        if (/loading=/.test(group)) return match;
+        return `<img loading="lazy"${group}>`;
+      });
+    }
+    return content;
+  });
+
   // ✅ Collections
   eleventyConfig.addCollection("smart-living", (collectionApi) =>
     collectionApi.getFilteredByTag("smart-living")

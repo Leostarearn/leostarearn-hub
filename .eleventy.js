@@ -1,22 +1,34 @@
 module.exports = function(eleventyConfig) {
-  eleventyConfig.addPassthroughCopy("style.css");         // ✅ already copying CSS
-  eleventyConfig.addPassthroughCopy("src/images");        // ✅ NEW: copy images folder
+  // ✅ Static asset passthrough
+  eleventyConfig.addPassthroughCopy("style.css");
+  eleventyConfig.addPassthroughCopy("src/images");
+  eleventyConfig.addPassthroughCopy("robots.txt");          // ✅ Add robots.txt
+  eleventyConfig.addPassthroughCopy("src/manifest.json");   // Optional: future PWA setup
 
-  // ✅ Collection: smart-living
-eleventyConfig.addCollection("smart-living", function (collectionApi) {
-  return collectionApi.getFilteredByTag("smart-living");
-});
+  // ✅ Smart Living
+  eleventyConfig.addCollection("smart-living", (collectionApi) =>
+    collectionApi.getFilteredByTag("smart-living")
+  );
 
-// ✅ Collection: tech-tools
-eleventyConfig.addCollection("tech-tools", function (collectionApi) {
-  return collectionApi.getFilteredByTag("tech-tools");
-});
+  // ✅ Tech Tools
+  eleventyConfig.addCollection("tech-tools", (collectionApi) =>
+    collectionApi.getFilteredByTag("tech-tools")
+  );
 
-// ✅ Collection: trending-viral
-eleventyConfig.addCollection("trending-viral", function (collectionApi) {
-  return collectionApi.getFilteredByTag("trending-viral");
-});
+  // ✅ Trending Viral
+  eleventyConfig.addCollection("trending-viral", (collectionApi) =>
+    collectionApi.getFilteredByTag("trending-viral")
+  );
 
+  // ✅ Everything (for sitemap)
+  eleventyConfig.addCollection("all", (collectionApi) =>
+    collectionApi.getAll()
+  );
+
+  // ✅ Add a global filter to clean URLs (if needed for sitemap)
+  eleventyConfig.addFilter("cleanUrl", function (url) {
+    return url.replace("index.html", "");
+  });
 
   return {
     dir: {
@@ -26,6 +38,7 @@ eleventyConfig.addCollection("trending-viral", function (collectionApi) {
     },
     markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
-    templateFormats: ["md", "njk", "html"]
+    templateFormats: ["md", "njk", "html"],
+    dataTemplateEngine: "njk" // ✅ Allows using Nunjucks inside .md front matter too
   };
 };

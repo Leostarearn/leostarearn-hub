@@ -522,7 +522,8 @@ Absolutely. Screen-free time — especially in the evening — helps your brain 
 Download our free [Smart Living eBooks](/ebooks/smart-living/) to discover home-based rituals for gut health, focus, and energy.
 
 ---
-📌 What to Read Next  
+
+### 📌 What to Read Next  
 👉 [Digital Detox: How 24 Hours Without Your Phone Feels](/smart-living/digital-detox-habits.html)  
 👉 [Guided Visualization for Productivity & Digestion](/smart-living/guided-visualization/)  
 👉 [Smart Coffee Alternatives: Clean Caffeine Hacks](/smart-living/smart-coffee-alternatives.html)

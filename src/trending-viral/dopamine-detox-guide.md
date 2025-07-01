@@ -32,7 +32,7 @@ faq:
 ---
 
 
-# Can a Dopamine Detox Really Reset Your Brain?
+## Can a Dopamine Detox Really Reset Your Brain?
 
 <div class="snippet-box" style="background: #f6f9fc; border-left: 4px solid #007acc; padding: 1em; margin-top: 1.5em; font-size: 1rem;">
 <strong>Q: What is a dopamine detox and does it really work?</strong><br>
@@ -83,7 +83,7 @@ From students to remote workers, tech-savvy adults to busy parents — more and 
 
 ---
 
-### 🧪 What’s Going On?
+# 🧪 What’s Going On?
 
 At the core of this exhaustion is something very real — but rarely discussed openly:
 

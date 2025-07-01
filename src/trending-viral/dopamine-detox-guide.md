@@ -48,9 +48,6 @@ But does it actually work? Can taking a break from “cheap dopamine” — like
 <div class="toc" style="background:#f8f8f8; padding:1em; border-left:4px solid #007acc; margin:1.5em 0;">
   <strong>Jump to a Section:</strong><br>
   <ul>
-    <li><a href="#why-so-many-people-feel-mentally-exhausted">🧠 Why So Many People Feel Mentally Exhausted</a></li>
-    <li><a href="#whats-going-on">🧪 What’s Going On?</a></li>
-    <li><a href="#everyday-habits-quietly-overloading-your-brain">⚡ Everyday Habits Overloading You</a></li>
     <li><a href="#what-is-a-dopamine-detox">🧠 What Is a Dopamine Detox?</a></li>
     <li><a href="#how-a-dopamine-detox-actually-works-science-in-plain-english">⚙️ How a Dopamine Detox Actually Works</a></li>
     <li><a href="#home-based-remedy-you-can-try-today">🏠 Home-Based Remedy You Can Try Today</a></li>
@@ -524,4 +521,11 @@ Absolutely. Screen-free time — especially in the evening — helps your brain 
 
 Download our free [Smart Living eBooks](/ebooks/smart-living/) to discover home-based rituals for gut health, focus, and energy.
 
+---
+
+## 🔗 What to Read Next:
+
+👉 [Digital Detox: How 24 Hours Without Your Phone Feels](/smart-living/digital-detox-habits.html)
+👉 [Guided Visualization for Productivity & Digestion](/smart-living/guided-visualization/)
+👉 [Smart Coffee Alternatives: Clean Caffeine Hacks](/smart-living/smart-coffee-alternatives.html)
 ---

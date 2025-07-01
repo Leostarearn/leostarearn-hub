@@ -1,4 +1,6 @@
 const { DateTime } = require("luxon");
+const markdownIt = require("markdown-it");
+const markdownItAnchor = require("markdown-it-anchor");
 
 module.exports = function(eleventyConfig) {
   // ✅ Static file passthroughs
@@ -41,6 +43,23 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addCollection("all", (collectionApi) =>
     collectionApi.getAll()
   );
+
+  // ✅ Markdown config with auto ID generation for headings (main addition)
+  const markdownOptions = {
+    html: true,
+    linkify: true,
+    typographer: true
+  };
+
+  eleventyConfig.setLibrary("md", markdownIt(markdownOptions).use(markdownItAnchor, {
+    permalink: markdownItAnchor.permalink.ariaHidden({
+      placement: "after",
+      class: "direct-link",
+      symbol: "#",
+      level: [2] // Only for <h2> headings
+    }),
+    slugify: s => s.toLowerCase().replace(/[^\w]+/g, "-").replace(/^-+|-+$/g, "")
+  }));
 
   return {
     dir: {

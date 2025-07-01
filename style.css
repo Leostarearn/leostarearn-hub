@@ -945,25 +945,3 @@ main tr:nth-child(even) {
   font-weight: 600;
   z-index: 1;
 }
-
-.toc {
-  background: #f9f9f9;
-  padding: 1em;
-  border-left: 4px solid #007acc;
-  font-size: 0.95rem;
-  line-height: 1.6;
-}
-.toc ul {
-  list-style: none;
-  padding-left: 0;
-}
-.toc li {
-  margin: 0.5em 0;
-}
-.toc a {
-  color: #007acc;
-  text-decoration: none;
-}
-.toc a:hover {
-  text-decoration: underline;
-}

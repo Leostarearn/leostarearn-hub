@@ -148,7 +148,29 @@
   </div>
 </main>
 
-
   {% include "footer.njk" %}
+
+{# ✅ Inject FAQ Structured Data from frontmatter (if provided) #}
+  {% if faq %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {% for item in faq %}
+      {
+        "@type": "Question",
+        "name": {{ item.question | dump }},
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": {{ item.answer | dump }}
+        }
+      }{% if not loop.last %},{% endif %}
+      {% endfor %}
+    ]
+  }
+  </script>
+  {% endif %}
+
 </body>
 </html>

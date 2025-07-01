@@ -44,17 +44,24 @@ module.exports = function(eleventyConfig) {
     collectionApi.getAll()
   );
 
-  // ✅ Markdown config with auto ID generation for headings (main addition)
-  const markdownOptions = {
-    html: true,
-    linkify: true,
-    typographer: true
-  };
+  // ✅ Markdown config with emoji-safe slugify
+const markdownOptions = {
+  html: true,
+  linkify: true,
+  typographer: true
+};
 
-  eleventyConfig.setLibrary("md", markdownIt(markdownOptions).use(markdownItAnchor, {
-  // Only generate IDs — do NOT add visible links or symbols
+eleventyConfig.setLibrary("md", markdownIt(markdownOptions).use(markdownItAnchor, {
   level: [2],
-  slugify: s => s.toLowerCase().replace(/[^\w]+/g, "-").replace(/^-+|-+$/g, "")
+  slugify: s =>
+    s
+      .normalize("NFKD") // Normalize accented characters
+      .replace(/[\u{1F600}-\u{1F6FF}]/gu, '') // Remove emojis
+      .replace(/[^a-zA-Z0-9 -]/g, '') // Remove special symbols
+      .trim()
+      .toLowerCase()
+      .replace(/\s+/g, '-') // Replace spaces with -
+      .replace(/-+/g, '-')  // Collapse multiple dashes
 }));
 
   return {

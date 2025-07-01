@@ -1,6 +1,5 @@
 const { DateTime } = require("luxon");
 const markdownIt = require("markdown-it");
-const markdownItAnchor = require("markdown-it-anchor");
 
 module.exports = function(eleventyConfig) {
   // ✅ Static file passthroughs
@@ -43,26 +42,6 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addCollection("all", (collectionApi) =>
     collectionApi.getAll()
   );
-
-  // ✅ Markdown config with emoji-safe slugify
-const markdownOptions = {
-  html: true,
-  linkify: true,
-  typographer: true
-};
-
-eleventyConfig.setLibrary("md", markdownIt(markdownOptions).use(markdownItAnchor, {
-  level: [2],
-  slugify: s =>
-    s
-      .normalize("NFKD") // Normalize accented characters
-      .replace(/[\u{1F600}-\u{1F6FF}]/gu, '') // Remove emojis
-      .replace(/[^a-zA-Z0-9 -]/g, '') // Remove special symbols
-      .trim()
-      .toLowerCase()
-      .replace(/\s+/g, '-') // Replace spaces with -
-      .replace(/-+/g, '-')  // Collapse multiple dashes
-}));
 
   return {
     dir: {

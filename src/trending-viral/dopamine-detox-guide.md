@@ -147,7 +147,8 @@ Just a structured pause — and your brain *can* recover.
 
 > This home-based approach is now backed by both neuroscientists and real-life users worldwide — especially in the U.S., UK, and Canada — reporting better focus, sleep, motivation, and peace of mind.
 
-**Do You Actually Need a Dopamine Detox? (Here's How to Tell)** - Check Now
+> Do You Actually Need a Dopamine Detox? (Here's How to Tell) - Check Now
+
 ---
 ## 🧠 Signs You Need a Dopamine Reset (And How to Fix It Naturally at Home)
 

@@ -52,14 +52,10 @@ module.exports = function(eleventyConfig) {
   };
 
   eleventyConfig.setLibrary("md", markdownIt(markdownOptions).use(markdownItAnchor, {
-    permalink: markdownItAnchor.permalink.ariaHidden({
-      placement: "after",
-      class: "direct-link",
-      symbol: "#",
-      level: [2] // Only for <h2> headings
-    }),
-    slugify: s => s.toLowerCase().replace(/[^\w]+/g, "-").replace(/^-+|-+$/g, "")
-  }));
+  // Only generate IDs — do NOT add visible links or symbols
+  level: [2],
+  slugify: s => s.toLowerCase().replace(/[^\w]+/g, "-").replace(/^-+|-+$/g, "")
+}));
 
   return {
     dir: {

@@ -43,6 +43,15 @@ module.exports = function(eleventyConfig) {
     collectionApi.getAll()
   );
 
+  // ✅ Markdown config (no auto-heading IDs)
+  const markdownOptions = {
+    html: true,
+    linkify: true,
+    typographer: true
+  };
+
+  eleventyConfig.setLibrary("md", markdownIt(markdownOptions));
+
   return {
     dir: {
       input: "src",
@@ -55,4 +64,3 @@ module.exports = function(eleventyConfig) {
     dataTemplateEngine: "njk"
   };
 };
-

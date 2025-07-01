@@ -45,6 +45,20 @@ That’s why the concept of a **"dopamine detox"** has exploded on platforms lik
 
 But does it actually work? Can taking a break from “cheap dopamine” — like social media, junk food, or compulsive content — really rewire your brain?
 
+<div class="toc" style="background:#f8f8f8; padding:1em; border-left:4px solid #007acc; margin:1.5em 0;">
+  <strong>Jump to a Section:</strong><br>
+  <ul>
+    <li><a href="#why-so-many-people-feel-mentally-exhausted">🧠 Why So Many People Feel Mentally Exhausted</a></li>
+    <li><a href="#whats-going-on">🧪 What’s Going On?</a></li>
+    <li><a href="#everyday-habits-quietly-overloading-your-brain">⚡ Everyday Habits Overloading You</a></li>
+    <li><a href="#what-is-a-dopamine-detox">🧠 What Is a Dopamine Detox?</a></li>
+    <li><a href="#how-a-dopamine-detox-actually-works-science-in-plain-english">⚙️ How a Dopamine Detox Actually Works</a></li>
+    <li><a href="#home-based-remedy-you-can-try-today">🏠 Home-Based Remedy You Can Try Today</a></li>
+    <li><a href="#smart-detox-friendly-recipe">🍵 Smart Detox-Friendly Recipe</a></li>
+    <li><a href="#next-morning-focus-flow-post-detox-boost">🌟 Focus Ritual for the Next Day</a></li>
+  </ul>
+</div>
+
 In this guide, we’ll break down:
 - What the science really says about dopamine and overstimulation
 - Why this trend resonates so deeply in modern work-from-home culture

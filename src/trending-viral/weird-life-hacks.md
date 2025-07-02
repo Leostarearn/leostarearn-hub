@@ -122,8 +122,17 @@ Take a clean transparent bottle (like an old soda or water bottle), fill it abou
 **Why It Works:**
 The upside-down bottle acts as both a seal and indicator. As the soil dries or air leaks, bubbles appear, signaling low moisture. The visual movement triggers curiosity — similar to viral bottle-flipping videos — making it easy to understand and satisfying to share.
 
-**Bonus Use:** Add food coloring to water for an easy visual aid when testing leaks in tight spots or for kids learning about evaporation.
+🪴 Self-watering hack for small indoor plants — especially herbs and succulents
 
+🖌️ Paint can rehydrator — trap moisture and reduce surface drying
+
+🍝 Fridge freshness check — place in sealed sauce jars or food bins to test pressure leaks
+
+🧪 DIY science demo — use in homeschool or kids’ learning to teach about air pressure and evaporation
+
+🚿 Humidity tester for tight spaces — like under-sink storage or travel boxes
+
+Pro Tip: Add a drop of food coloring for visibility — red or blue makes the bubbling easier to notice and fun for kids or content creators.
 ---
 
 ## <h2 id="hack-2">🌱 Hack #2: Regrow Fresh Herbs from Kitchen Scraps</h2>
@@ -208,4 +217,38 @@ The cardboard acts like a flexible nozzle — adapting to cracks and sucking up 
 
 **Bonus Idea:** Add a few drops of essential oil to the inside of the tube before vacuuming — leaves a light scent in hidden corners.
 
+---
+## <h2 id="hack-8">⚡ Hack #8: The “T-Shirt Pillowcase” Trick</h2>
+
+Ever need a quick pillow cover, a clean laundry liner, or soft storage — but don’t feel like buying new stuff? Turns out, an old T-shirt is the perfect backup hero — and it works way better than you'd think.
+
+### 🧠 Problem:
+You're changing sheets and realize you're out of clean pillowcases. Or maybe you're packing for a trip and need an extra laundry bag — but don't want to buy one. Even things like lining a storage bin or softening a hard seat suddenly feel like mini challenges.
+
+Buying new stuff for every small need feels wasteful — and honestly, most of us already have something at home that could work… if we just got creative.
+
+### 💡 Try This:
+Grab any clean, oversized T-shirt (the softer, the better). Wrap it around your pillow like a fitted sheet. Tie the sleeves and bottom into a loose knot at the back. Done.
+
+You now have a **snug, breathable pillow cover** — made from something already in your closet.  
+This hack is especially useful in dorms, guest rooms, minimalist apartments, or on-the-go travel kits. It’s a smart, sustainable way to **repurpose old clothes** without sewing or spending a dime. You now have a **snug, breathable pillow cover** — made from something already in your closet.
+
+### ✅ Why It Works:
+
+- T-shirts are already soft, skin-safe, and washable  
+- They stretch enough to fit various sizes  
+- This trick is eco-friendly and instant — no sewing or gear needed  
+- It became popular in minimalist and van-life communities on YouTube — because it works in tiny spaces with zero cost
+
+### 🎯 Bonus Uses:
+
+- 💤 Guest pillow cover when you run out of linens  
+- 🧺 Laundry liner for dorms, travel bags, or beach trips  
+- 🧦 Drawer organizer liner that’s soft and easily washable  
+- 🛫 Travel hack: use a tee over your neck pillow or as a laundry separator in your suitcase  
+- 🎮 DIY cushion cover for gaming chairs or meditation mats  
+
+> **Pro Tip:** Use graphic tees for a quirky look — or plain cotton ones for a clean, minimalist vibe.
+
+This one’s so simple, you’ll wonder why you didn’t try it sooner.
 ---

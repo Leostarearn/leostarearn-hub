@@ -6,7 +6,11 @@ date: 2025-07-04
 layout: base.njk
 faqSchema: true
 permalink: /trending-viral/dopamine-detox-guide.html
-tags: \["trending", "focus", "dopamine detox", "mental clarity"]
+tags:
+  - trending
+  - focus
+  - dopamine detox
+  - mental clarity
 image: "/images/trending-viral/dopamine-detox-guide.webp"
 imageAlt: "Person journaling during a dopamine detox"
 

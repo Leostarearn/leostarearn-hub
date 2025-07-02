@@ -532,8 +532,6 @@ It’s not a diet. It’s a rhythm your gut will thank you for — every single 
 
 <h2 id="gut-brain-connection">🧠 Gut-Brain Connection</h2>
 
-## 🧠 Gut-Brain Connection
-
 Did you know your gut has its own nervous system — often called the *“second brain”*?
 
 It’s not just a metaphor. The gut and brain are in constant conversation through a network of nerves, hormones, and chemical messengers. And this connection shapes more of your mood, memory, and mental clarity than most people realize.

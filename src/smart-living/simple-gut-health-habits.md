@@ -260,6 +260,7 @@ Aim for **7–9 hours** with a dark, quiet room. Even better: Try sleeping on yo
 
 
 ---
+
 <h2 id="gut-friendly-foods">🥗 Top Foods for a Happy Gut</h2>
 
 You don’t need exotic powders or pricey pills to fix your digestion. In most cases, your gut craves what nature already gave us: **real, whole foods rich in fiber, fermented compounds, and healing nutrients**.

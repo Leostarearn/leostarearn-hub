@@ -53,9 +53,10 @@ Yes — studies and stories show Gen Z isn’t just scrolling; they’re slowing
 * [🔧 Easy Ways to Start](#how-to-try)
 * [❓ Common Questions](#frequently-asked-questions)
 
+
 ---
 
-## 🧨 What Happens Without Mindfulness? The Cost of Constant Stimulation {#cost-of-constant-stimulation}
+<h2 id="cost-of-constant-stimulation">🧨 What Happens Without Mindfulness? The Cost of Constant Stimulation</h2>
 
 We live in an age of nonstop input — TikTok scrolls, DM replies, calendar pings, productivity trackers, side hustle goals, and news cycles that never sleep.
 
@@ -88,7 +89,7 @@ That shift — even in small doses — has the power to restore balance not just
 
 ---
 
-## 💭 The Pressure Gen Z Faces Every Day {#the-pressure-gen-z-faces}
+<h2 id="the-pressure-gen-z-faces">💭 The Pressure Gen Z Faces Every Day</h2>
 
 If you’re in your teens or early 20s, life probably feels like an intense juggling act:
 
@@ -107,7 +108,7 @@ The answer isn’t in an app. It’s in a tree. Or a sunrise. Or your breath.
 
 ---
 
-## 🌞 Why Mindfulness? Why Now? {#why-mindfulness}
+<h2 id="why-mindfulness">🌞 Why Mindfulness? Why Now?</h2>
 
 Mindfulness isn’t new — but it’s having a massive Gen Z glow-up.
 
@@ -126,7 +127,7 @@ Today’s mindfulness might look like:
 > “I started doing 10-minute walks without music — just me and the trees. It felt weird at first… but now it’s my favorite part of the day.” — @serenitybysof, TikTok (1.2M likes)
 
 ---
-📈 Mindfulness by the Numbers {#mindfulness-by-numbers}
+<h2 id="mindfulness-by-the-numbers">📈 Mindfulness by the Numbers</h2>
 
 Mindfulness isn’t just popular — it’s measurable.
 
@@ -160,7 +161,7 @@ This wave of interest isn’t passive. It’s active. Gen Z isn’t just talking
 
 ---
 
-## 🚶‍♀️ Gen Z’s Favorite Mindfulness Habits
+<h2 id="favorite-mindfulness-habits">🚶‍♀️ Gen Z’s Favorite Mindfulness Habits</h2>
 
 Let’s be real: most of Gen Z isn’t meditating on a mountaintop. But they are making **everyday mindfulness** a thing — in simple, creative ways.
 
@@ -418,7 +419,7 @@ It’s not about productivity. It’s about presence.
 > — Riley, 20, Brooklyn
 ---
 
-## 🧠 What the Science Says
+<h2 id="what-the-science-says">🧠 What the Science Says</h2>
 
 Mindfulness isn’t just a vibe — it’s backed by serious neuroscience:
 
@@ -432,7 +433,7 @@ Mindfulness isn’t just a vibe — it’s backed by serious neuroscience:
 
 ---
 
-## 🧩 Why Nature Makes It Work Better
+<h2 id="why-nature-works">🧩 Why Nature Makes It Work Better</h2>
 
 Nature is the perfect partner to mindfulness for one simple reason: **our brains evolved outdoors.**
 
@@ -450,7 +451,7 @@ Even **15 minutes in a green space** has been shown to:
 
 ---
 
-## 🎒 Real Gen Z Voices – Stories of Slow, Real-Life Resets
+<h2 id="real-gen-z-voices">🎒 Real Gen Z Voices – Stories of Slow, Real-Life Resets</h2>
 
 Mindfulness isn’t just a theory or TikTok trend — it’s showing up in quiet, offline choices that Gen Zers are making all around the world. From solo walks to campus rituals, here are three real voices sharing what mindful living looks like in their daily lives.
 
@@ -501,7 +502,7 @@ That one night turned into a habit. Now, Priya leaves her phone in the kitchen a
 
 ---
 
-## 🔧 How to Try It (No App Needed)
+<h2 id="how-to-try">🔧 How to Try It (No App Needed)</h2>
 
 You don’t need a monthly subscription, a yoga mat, or a retreat in Bali to start being mindful. The most effective practices are often the simplest — and the most accessible.
 
@@ -636,7 +637,7 @@ In a world of constant pings, *digital detoxes for teens* and *mindfulness routi
 
 ---
 
-## ❓ Frequently Asked Questions (FAQ)
+<h2 id="frequently-asked-questions">❓ Frequently Asked Questions (FAQ)</h2>
 
 **Q1: Does mindfulness really help with anxiety and stress?**
 Yes — studies show regular mindfulness practice reduces cortisol (stress hormone), improves sleep, and calms the nervous system.

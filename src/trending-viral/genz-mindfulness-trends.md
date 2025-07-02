@@ -3,7 +3,7 @@ title: "Why Gen Z Is Turning to Mindfulness Outdoors (and Not Just on TikTok)"
 description: "It's not just a trend. From sunset walks to silent mornings, Gen Z is redefining mindfulness in the age of digital burnout. Here's how—and why—it matters."
 date: 2025-07-05
 layout: base.njk
-permalink: /trending-viral/gen-z-mindfulness-guide.html
+permalink: /trending-viral/genz-mindfulness-trends.html
 tags:
   - smart living
   - mental health

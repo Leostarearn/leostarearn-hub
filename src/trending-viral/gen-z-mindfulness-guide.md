@@ -1,6 +1,6 @@
 ---
 title: "Why Gen Z Is Turning to Mindfulness Outdoors (and Not Just on TikTok)"
-description: "It's not just a trend. From sunset walks to silent mornings, Gen Z is redefining mindfulness in the age of digital burnout. Here’s how—and why—it matters."
+description: "It's not just a trend. From sunset walks to silent mornings, Gen Z is redefining mindfulness in the age of digital burnout. Here's how—and why—it matters."
 date: 2025-07-05
 layout: base.njk
 permalink: /smart-living/gen-z-mindfulness-guide.html
@@ -16,23 +16,17 @@ tags:
 image: "/images/smart-living/gen-z-mindfulness.webp"
 imageAlt: "Gen Z teen practicing mindfulness outdoors in a peaceful nature setting"
 faqSchema: true
-
 faq:
   - question: "Does mindfulness really help with anxiety and stress?"
     answer: "Yes — studies show regular mindfulness practice reduces cortisol (stress hormone), improves sleep, and calms the nervous system."
-
   - question: "Why is Gen Z doing this outdoors instead of with apps?"
     answer: "Because they’re tired of screens. Nature slows the brain and balances dopamine better than digital solutions."
-
   - question: "Do I have to meditate to be mindful?"
     answer: "No. Mindfulness can be walking, sipping tea, writing, or just noticing your surroundings. Meditation is just one path."
-
   - question: "What if I get bored or restless?"
     answer: "That’s normal. The first few minutes might feel awkward — but stay with it. Over time, your brain adapts to stillness."
-
   - question: "How long should I try mindfulness before I see results?"
     answer: "Some people feel calmer after one session. But for lasting impact, try 10 minutes a day for 2–3 weeks."
-
   - question: "What if I live in a busy city or noisy apartment?"
     answer: "Try earplugs, eye masks, or indoor grounding (touch a plant, open a window, dim lights). Any mindful moment helps."
 ---

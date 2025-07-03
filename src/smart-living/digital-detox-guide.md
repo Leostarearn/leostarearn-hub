@@ -620,4 +620,24 @@ Start small. Pick a Saturday or Sunday. Let the people close to you know. Then c
 You'll be surprised how good it feels to simply *be* again.
 
 ---
+<h2 id="detox-faq">💡 Digital Detox FAQs (Simple Answers, Real Results)</h2>
+
+Q1: What is a digital detox, exactly?
+A digital detox is a short, intentional break from screens and digital devices like smartphones, computers, and tablets. The goal is to reset your brain’s dopamine response, reduce stress, and reconnect with real-life experiences.
+
+Q2: Do I have to turn off my phone completely?
+Not necessarily. Many people just switch to airplane mode or use their phone only for emergencies or navigation. The goal isn’t perfection — it’s reducing mindless scrolling, pings, and distractions.
+
+Q3: How long should a digital detox last?
+Even 24 hours can make a noticeable difference. Some people do weekly detoxes (like a screen-free Sunday), while others choose one full weekend each month. It depends on your lifestyle — but consistency matters more than duration.
+
+Q4: What are the benefits of doing this?
+People report better sleep, improved focus, reduced anxiety, more natural energy, deeper connection with others, and a stronger sense of mental clarity. It’s like giving your brain a deep breath.
+
+Q5: What do I do instead of using my phone?
+Walk, journal, cook, clean, draw, talk to someone, take a bath, organize something, or just sit in silence. You’ll be surprised how creative and grounded you feel when your attention is no longer hijacked by apps.
+
+Q6: Is there any science behind digital detox?
+Yes — research shows that constant digital stimulation can desensitize dopamine receptors, disrupt sleep, and increase cortisol levels. Short breaks help the brain restore balance and improve your baseline focus and mood.
+
 

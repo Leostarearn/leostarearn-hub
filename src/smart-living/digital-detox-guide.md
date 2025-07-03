@@ -33,6 +33,7 @@ faq:
   - question: "Is there any science behind digital detox?"
     answer: "Yes — research shows that constant digital stimulation can desensitize dopamine receptors, disrupt sleep, and increase cortisol levels. Short breaks help the brain restore balance and improve your baseline focus and mood."
 
+
 ---
 
 ## 🧭 Jump to Section

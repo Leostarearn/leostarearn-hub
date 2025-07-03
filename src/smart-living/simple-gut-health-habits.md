@@ -39,7 +39,7 @@ faq:
 
 <div class="snippet-box" style="background: #f6f9fc; border-left: 4px solid #007acc; padding: 1em; margin-top: 1.5em; font-size: 1rem;">
 <strong>Q: Can simple habits really heal your gut?</strong><br>
-Yes — even tiny changes to your daily routine can transform your digestion, mood, skin, and energy. The secret? Consistency + science-backed foods.
+Yes — even small, consistent changes in your daily routine can lead to big improvements in gut health. Your digestive system is incredibly responsive to daily inputs like what you eat, how you move, and even how you manage stress. Simple actions — such as adding more fiber, drinking enough water, walking after meals, and including fermented foods — can improve digestion, reduce bloating, and support the balance of healthy gut bacteria. Over time, these habits can also boost your mood, clear up skin issues, enhance sleep, and increase your overall energy levels. It's not about perfection — it's about building gut-friendly habits that your body can rely on, day after day.
 </div>
 
 ---

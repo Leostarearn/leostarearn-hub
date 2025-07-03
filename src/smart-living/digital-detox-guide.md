@@ -37,14 +37,17 @@ faq:
 
 ## 🧭 Jump to Section
 
-- [🎯 Why This Trend Feels So Good](#why-detox-feels-good)
-- [🧠 What Happens to Your Brain Off-Screen](#brain-off-screen)
-- [🛠️ 24-Hour Detox Checklist](#24hr-detox-checklist)
-- [📈 Bonus: Stack the Benefits With This](#stack-the-benefits)
-- [🌿 Final Takeaway](#final-takeaway)
-- [❓ FAQ](#faq)
+- [🎯 Why This Trend Feels So Good](#why-detox-feels-good)  
+- [🧠 What Happens to Your Brain Off-Screen](#brain-off-screen)  
+- [🧰 How to Prep for a No-Phone Day (Without Losing Your Mind)](#prep-no-phone)  
+- [🌿 A Real Day Without Your Phone (Hour-by-Hour Feelings)](#real-day-no-phone)  
+- [🛠️ 24-Hour Detox Checklist](#24hr-detox-checklist)  
+- [📈 Bonus: Stack the Benefits With This](#stack-the-benefits)  
+- [🌿 Final Takeaway](#final-takeaway)  
+- [❓ FAQ](#faq)  
 
-## 🎯 Why This Trend Feels So Good (Real Talk)
+
+<h2 id="why-detox-trend">🎯 Why This Trend Feels So Good (Real Talk)</h2>
 
 There’s a reason why #DigitalDetox is trending — and it’s not just because influencers are talking about it. Deep down, most of us *feel it*. That restless scroll. That phantom buzz in your pocket. The constant twitch to check messages even when nothing’s there.
 
@@ -73,7 +76,7 @@ If you nodded yes — even once — your body may be asking for a digital break.
 
 ---
 
-## 🧠 What Happens to Your Brain Off-Screen
+<h2 id="brain-offscreen">🧠 What Happens to Your Brain Off-Screen</h2>
 
 You might not realize it, but every scroll, ping, and notification trains your brain to crave *more*. It’s called the dopamine loop — tiny hits of pleasure that keep you coming back, again and again.
 
@@ -119,7 +122,7 @@ Just 24 hours off-screen can dramatically shift your sleep-wake cycle.
 
 ---
 
-## 🌿 A Real Day Without Your Phone (Hour-by-Hour Feelings)
+<h2 id="real-day-no-phone">🌿 A Real Day Without Your Phone (Hour-by-Hour Feelings)</h2>
 
 Ever wondered what actually happens when you put your phone down for a full day? Here's a raw, honest look at the emotional journey most people experience — hour by hour.
 
@@ -192,7 +195,7 @@ And the best part? You can do it again next weekend.
 📌 **Try This:**  
 Plan your own 24-hour detox. Pick a day. Tell someone. Charge your Kindle. Prep a real breakfast. Leave your phone in another room — and just *see what happens*.
 
-## 🧰 How to Prep for a No-Phone Day (Without Losing Your Mind)
+<h2 id="prep-no-phone">🧰 How to Prep for a No-Phone Day (Without Losing Your Mind)</h2>
 
 Let’s be honest — going a full day without your phone can feel *scary*. What if someone needs you? What if you forget something? What if... you’re just bored?
 
@@ -268,7 +271,7 @@ If you use it for music or podcasts, pre-download content and **turn off Wi-Fi +
 
 ---
 
-### 📝 Want a Quick Setup Checklist?
+<h2 id="24hr-detox-checklist">🛠️ 24-Hour Detox Checklist</h2>
 
 Here’s your no-stress detox prep list:
 
@@ -287,7 +290,7 @@ Doing this once a week can change your brain, your energy, and your relationship
 
 > *You don’t have to delete your phone — just show your mind it’s not the boss.*
 
-## 📊 What the Science Says About Digital Overload
+<h2 id="science-digital-overload">📊 What the Science Says About Digital Overload</h2>
 
 It’s not just a vibe — it’s verified. Science is now catching up to what many of us *feel*: constant screen use alters how our brain, body, and mood function.
 
@@ -370,7 +373,7 @@ These are all common with prolonged screen exposure. Most people aren’t even a
 
 Even 24 hours offline can trigger **real neurological, hormonal, and emotional shifts** — and your body notices.
 
-## 💬 Real Stories: What People Say After Their First Detox
+<h2 id="real-stories-detox">💬 Real Stories: What People Say After Their First Detox</h2>
 
 This isn’t just theory — people around the world are taking 24-hour breaks from their phones, and the responses are surprisingly consistent.
 
@@ -448,7 +451,7 @@ And that’s the real gift of the detox: **It breaks autopilot**.
 
 Even if you return to screens, you come back *differently* — with more awareness, more intention, and a little more freedom from the loop.
 
-## 📅 Build Your Own 24-Hour Digital Detox Plan
+<h2 id="build-detox-plan">📅 Build Your Own 24-Hour Digital Detox Plan</h2>
 
 Ready to try it yourself? You don’t need to escape to a cabin in the woods. A digital detox can start *anywhere* — even at home, with a bit of prep and intention.
 
@@ -599,19 +602,32 @@ Here’s a quick layout you can copy to your journal, whiteboard, or post-it:
 - [ ] Write 3 things you noticed or felt
 
 ---
+<h2 id="stack-the-benefits">📈 Bonus: Stack the Benefits With This</h2>
 
-### 🧠 Want a Guided Reset Plan?
+When people try a digital detox for even a day, the results speak for themselves: better focus, lighter mood, deeper sleep. But if you want to take it up a notch — or keep the momentum going long after that 24-hour reset — here’s how to stack those gains:
 
-If you want a structured detox roadmap — with printable pages, habit trackers, and calming journal prompts — check out this downloadable **Digital Clarity Bundle** ✅
+- 🧘‍♀️ **Add light daily breathwork** – Just 5 minutes of box breathing can keep your nervous system calm and help reduce digital cravings.  
+- ✍️ **Use a simple journal** – Tracking how you feel (before and after screen breaks) keeps your awareness sharp and makes you more intentional about tech use.  
+- 📵 **Try a distraction blocker** – Tools like Freedom, Opal, or browser extensions can block addictive sites and keep your focus where it belongs.  
+- 🎧 **Use audio wisely** – Nature sounds, binaural beats, or calming music can replace mindless scrolling with real restoration.  
+- ✅ **Leverage helpful tools or challenges** – Want accountability or motivation? Consider using structured digital detox challenges.
 
-🛍️ [Grab Your 7-Day Digital Reset Printable Kit »](https://warriorplus.com/some-affiliate-link)
+---
+
+### 🔥 Try This Bonus Toolkit
+
+> Want to go deeper? We found a digital habit reset guide on WarriorPlus that pairs perfectly with this detox. It includes printable templates, dopamine discipline hacks, and a weeklong challenge — all beginner-friendly.  
+>
+> 👉 [**Digital Reset Mastery Toolkit** (affiliate link)](https://warriorplus.com/xxx) – Affordable, practical, and instantly downloadable. No fluff.
+
+✅ Use this alongside your 24-hour detox for lasting clarity and focus.
 
 Perfect for anyone who wants to break scroll addiction and build new offline rituals without quitting tech forever.
 
 > “This made unplugging feel *doable*. Loved the planner and the daily reflection prompts!”
 
 ---
-## 🌿 Final Takeaway: It’s Simpler Than You Think
+<h2 id="final-takeaway">🌿 Final Takeaway</h2>
 
 You don’t need to delete your accounts, throw away your phone, or move to the mountains. One intentional day — 24 hours offline — is enough to reset your nervous system, refocus your mind, and remember what real presence feels like.
 
@@ -620,6 +636,7 @@ Start small. Pick a Saturday or Sunday. Let the people close to you know. Then c
 You'll be surprised how good it feels to simply *be* again.
 
 ---
+
 <h2 id="detox-faq">💡 Digital Detox FAQs (Simple Answers, Real Results)</h2>
 
 Q1: What is a digital detox, exactly?

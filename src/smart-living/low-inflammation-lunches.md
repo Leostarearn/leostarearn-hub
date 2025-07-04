@@ -5,7 +5,7 @@ description: "Try these easy, anti-inflammatory lunch ideas that support digesti
 date: 2025-07-04
 layout: base.njk
 permalink: /smart-living/low-inflammation-lunches.html
-tags: \["smart-living", "focus", "gut-health", "anti-inflammatory"]
+tags: ["smart-living", "focus", "gut-health", "anti-inflammatory"]
 image: "/images/smart-living/low-inflammation-lunches.webp"
 imageAlt: "Healthy anti-inflammatory lunch bowl with greens, salmon, and sweet potato"
 ---

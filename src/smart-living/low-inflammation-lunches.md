@@ -8,7 +8,7 @@ permalink: /smart-living/low-inflammation-lunches.html
 tags: \["smart-living", "focus", "gut-health", "anti-inflammatory"]
 image: "/images/smart-living/low-inflammation-lunches.webp"
 imageAlt: "Healthy anti-inflammatory lunch bowl with greens, salmon, and sweet potato"
---------------------------------------------------------------------------------------
+---
 
 # Low-Inflammation Lunches for Clarity at Work
 

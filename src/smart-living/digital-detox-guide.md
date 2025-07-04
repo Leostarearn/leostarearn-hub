@@ -36,18 +36,6 @@ faq:
 
 ---
 
-## 🧭 Jump to Section
-
-- [🎯 Why This Trend Feels So Good](#why-detox-feels-good)  
-- [🧠 What Happens to Your Brain Off-Screen](#brain-off-screen)  
-- [🧰 How to Prep for a No-Phone Day (Without Losing Your Mind)](#prep-no-phone)  
-- [🌿 A Real Day Without Your Phone (Hour-by-Hour Feelings)](#real-day-no-phone)  
-- [🛠️ 24-Hour Detox Checklist](#24hr-detox-checklist)  
-- [📈 Bonus: Stack the Benefits With This](#stack-the-benefits)  
-- [🌿 Final Takeaway](#final-takeaway)  
-- [❓ FAQ](#faq)  
-
-
 <h2 id="why-detox-trend">🎯 Why This Trend Feels So Good (Real Talk)</h2>
 
 There’s a reason why #DigitalDetox is trending — and it’s not just because influencers are talking about it. Deep down, most of us *feel it*. That restless scroll. That phantom buzz in your pocket. The constant twitch to check messages even when nothing’s there.
@@ -74,6 +62,17 @@ Boredom isn’t bad. It’s space. It’s quiet. And in that space, your best id
 - Are moments of silence uncomfortable?
 
 If you nodded yes — even once — your body may be asking for a digital break. And a detox doesn’t mean giving up your tech life. It means regaining control of it.
+
+## 🧭 Jump to Section
+
+- [🎯 Why This Trend Feels So Good](#why-detox-feels-good)  
+- [🧠 What Happens to Your Brain Off-Screen](#brain-off-screen)  
+- [🧰 How to Prep for a No-Phone Day (Without Losing Your Mind)](#prep-no-phone)  
+- [🌿 A Real Day Without Your Phone (Hour-by-Hour Feelings)](#real-day-no-phone)  
+- [🛠️ 24-Hour Detox Checklist](#24hr-detox-checklist)  
+- [📈 Bonus: Stack the Benefits With This](#stack-the-benefits)  
+- [🌿 Final Takeaway](#final-takeaway)  
+- [❓ FAQ](#faq)  
 
 ---
 

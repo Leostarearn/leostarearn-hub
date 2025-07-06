@@ -115,3 +115,5 @@ Try just **one new habit per week** from this list, and stack your health wins t
 * 👉 [Top Supplements for Gut, Mood & Energy (2025 Guide)](/gut-health-tips.md)
 * 👉 [Best Budgeting Apps That Actually Work](#)
 * 👉 [Top AI Tools That Save You Hours Daily](#)
+
+---
